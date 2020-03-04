@@ -34,6 +34,7 @@ data/*
 !data/web*.data
 !data/coco_*.txt
 !data/web*.txt
+!data/web*.names
 !data/trainvalno5k.shapes
 !data/*.sh
 
