@@ -1,0 +1,5 @@
+classes= 5
+train  = data/web-train.txt  
+valid  = data/web-test.txt  
+names = data/web.names  
+backup = backup/ 

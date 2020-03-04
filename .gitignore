@@ -1,5 +1,4 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
 *.jpeg
 *.png
 *.bmp
@@ -32,7 +31,9 @@ data/*
 !data/coco_paper.names
 !data/coco.data
 !data/coco_*.data
+!data/web*.data
 !data/coco_*.txt
+!data/web*.txt
 !data/trainvalno5k.shapes
 !data/*.sh
 
