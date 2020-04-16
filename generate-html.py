@@ -14,7 +14,12 @@ class TextField:
     
     class_id = 0
     
-    def __init__(self, width, height, arc_radius, border_color, label_outside=None, label_outside_color=None, label_inside=None):
+    def __init__(self, width, height, arc_radius, border_color, label_outside, label_outside_color, label_inside, font, form_background_color, label_outside_width=None):
+        """
+        :param font_size: between 0 and 1. percentage of the field height
+        :param label_outside_width: width of the label zone in pixels. If not given, label_size will be the size of the label
+        """
+        
         self.width = width
         self.height = height
         self.arc_radius = arc_radius
@@ -22,6 +27,9 @@ class TextField:
         self.label_outside_color = label_outside_color
         self.label_inside = label_inside
         self.border_color = border_color
+        self.background_color = form_background_color
+        self.label_outside_width = label_outside_width
+        self.font = font
         
     def draw(self, x, y, img, image_draw):
         """
@@ -30,17 +38,14 @@ class TextField:
         :param img: The image element we are drawing on
         :param image_draw: the PIL ImageDraw object
         """
-        font_size = int(self.height * 0.8)
-        font = ImageFont.truetype("arial.ttf", font_size)
-        
         field_x = x
         
         # box containing arc must be twice the size of the radius
         arc_size_for_corner = self.arc_radius * 2 
         
-        if self.label_outside:
-            self.label_outside_size = image_draw.textsize(self.label_outside, font)
-            field_x = x + self.label_outside_size[0] + 20
+        label_outside_width, label_outside_height = image_draw.textsize(self.label_outside, self.font)
+
+        field_x = x + self.label_outside_width + 20
 
         if self.arc_radius > 0:
             image_draw.arc((field_x, y, field_x + arc_size_for_corner, y + arc_size_for_corner), 180, 270, fill=self.border_color)  # top-left
@@ -54,15 +59,15 @@ class TextField:
         image_draw.line([(field_x, y + self.arc_radius), (field_x, y + self.height - self.arc_radius)], fill=self.border_color) # left line
         
         
-        ImageDraw.floodfill(img, ((2 * field_x + self.width) / 2, (2 * y + self.height) / 2), value=(255, 255, 255))
+        ImageDraw.floodfill(img, ((2 * field_x + self.width) / 2, (2 * y + self.height) / 2), value=self.background_color)
         image_draw = ImageDraw.Draw(img)
         
         
         if self.label_outside:
-            image_draw.text((x, y + self.height - font_size - 2), self.label_outside, font=font, fill=self.label_outside_color)
+            image_draw.text((x, y + (self.height - label_outside_height) / 2), self.label_outside, font=self.font, fill=self.label_outside_color)
             
         if self.label_inside:
-            image_draw.text((field_x + 5, y + self.height - font_size - 2), self.label_inside, font=font, fill=(150, 150, 150))
+            image_draw.text((field_x + 5, y + (self.height - label_outside_height) / 2), self.label_inside, font=self.font, fill=(150, 150, 150))
             
         return (self.class_id, field_x, y, self.width, self.height)
         
@@ -70,14 +75,15 @@ class Button:
     
     class_id = 1
     
-    def __init__(self, width, height, arc_radius, background_color, label_inside, label_inside_color=None):
+    def __init__(self, width, height, arc_radius, form_background_color, label_inside, label_inside_color, font_size):
         self.width = width
         self.height = height
         self.arc_radius = arc_radius
         self.label_inside = label_inside
         self.label_inside_color = label_inside_color
-        self.border_color = background_color
-        self.background_color = background_color
+        self.border_color = form_background_color
+        self.background_color = form_background_color
+        self.font_size = font_size
         
     def draw(self, x, y, img, image_draw):
         """
@@ -86,12 +92,12 @@ class Button:
         :param img: The image element we are drawing on
         :param image_draw: the PIL ImageDraw object
         """
-        font_size = int(self.height * 0.8)
+        font_size = int(self.height * self.font_size)
         font = ImageFont.truetype("arial.ttf", font_size)
         
         # box containing arc must be twice the size of the radius
         arc_size_for_corner = self.arc_radius * 2 
-        text_width = image_draw.textsize(self.label_inside, font)[0]
+        text_width, text_height = image_draw.textsize(self.label_inside, font)
         
         # change width if its too low
         self.width = max(text_width + 10, self.width)
@@ -110,36 +116,35 @@ class Button:
         ImageDraw.floodfill(img, ((2 * x + self.width) / 2, (2 * y + self.height) / 2), value=self.background_color)
         image_draw = ImageDraw.Draw(img)
 
-        image_draw.text((x + (self.width - text_width) / 2, y + self.height - font_size - 2), self.label_inside, font=font, fill=self.label_inside_color)
+        image_draw.text((x + (self.width - text_width) / 2, y + (self.height - text_height) / 2), self.label_inside, font=font, fill=self.label_inside_color)
         
         return (self.class_id, x, y, self.width, self.height)
     
 class Form:
     
-    def __init__(self, background_color, width, height, rows, row_height):
+    def __init__(self, form_background_color, width, height, rows, row_height):
         """
         Draw a form with a color and size
-        :param background_color: a RGB tuple or string
+        :param form_background_color: a RGB tuple or string
         :param width: background width
         :param height: background height
         :param rows: number of rows
         """
         
         supersample_factor = 1 # TODO: apply
-        self.background_color = background_color
+        self.background_color = form_background_color
         self.width = width
         self.height = height
         self.rows = rows
         self.row_height = row_height
         self.margin_top = (self.height - self.rows * self.row_height) / 2
         
-        self.img = Image.new('RGB', (width * supersample_factor, height * supersample_factor), background_color)
+        self.img = Image.new('RGB', (width * supersample_factor, height * supersample_factor), form_background_color)
         self.img_draw = ImageDraw.Draw(self.img)
         
     def draw(self, x, element, row):
         y = self.margin_top + row * self.row_height
         class_id, el_x, el_y, el_w, el_h = element.draw(x, y, self.img, self.img_draw)
-#         print(class_id, el_x, el_y, el_w, el_h)
         
         # compute bounding box coordinates in yolo format (class_id, center_x, center_y, width, height). All coordinates are computed relative to picture size
         return (class_id,
@@ -149,14 +154,14 @@ class Form:
                 el_h / self.height
                 )
         
-    def create_image(self, path, yolo_coordinates):
+    def create_image(self, path, yolo_coordinates, image_quality):
         """
         creates the image file
         """
         self.img = self.img.resize((self.width, self.height), Image.ANTIALIAS)
         
         with open(path, 'wb') as output:
-            self.img.save(output, format="JPEG", quality=95)
+            self.img.save(output, format="JPEG", quality=image_quality)
             
         with open(path.replace('.jpg', '.txt'), 'w') as yolo:
             for yolo_coordinate in yolo_coordinates:
@@ -167,6 +172,14 @@ def generate_light_color():
     first_channel = 255
     second_channel = random.randint(190, 255)
     thrid_channel = random.randint(min_sum - first_channel - second_channel, 255)
+    color = [first_channel, second_channel, thrid_channel]
+    random.shuffle(color)
+    return tuple(color) 
+            
+def generate_very_light_color():
+    first_channel = random.randint(245, 255)
+    second_channel = random.randint(245, 255)
+    thrid_channel = random.randint(245, 255)
     color = [first_channel, second_channel, thrid_channel]
     random.shuffle(color)
     return tuple(color) 
@@ -186,37 +199,50 @@ if __name__ == '__main__':
     
     os.makedirs('out', exist_ok=True)
     
-    form_rows = range(3, 6)
-    background_colors = [(204, 255, 153), (153, 255, 153), (153, 255, 204), (204, 204, 255)]
-    label_colors = [(0, 51, 0), (0, 51, 102), (255, 0, 0), (204, 0, 204), (0, 0, 0)]
-    button_colors =  [(0, 255, 153), (255, 102, 255), (51, 153, 255), (255, 153, 102)]
-    labels = ['Name', 'Nom', 'Prenom', 'Login', 'Age', 'password', 'Birthdate', 'location', 'information', 'vehicule', 'Chat', 'naissance', 'Address', 'adresse', 'Ville', 'City', 'Rue', 'Street']
+    labels = ['Name', 'Nom', 'Prenom', 'Login', 'Age', 'password', 'Birthdate', 'location', 'information', 'vehicule', 'Chat', 
+              'naissance', 'Address', 'adresse', 'Ville', 'City', 'Rue', 'Street', 'email', 'Username', 'Contact', 'Phone', 'number', 
+              'Age', 'Message', 'zip code', 'Code postal', 'Country', 'Pays', 'State', 'Company', 'Entreprise', 'URL']
     button_labels = ['OK', 'Validate', 'Cancel', 'Save', 'Hello', 'Enregistrer', 'continue', 'Stop', 'Ajouter', 'Add', 'Remove', 'Supprimer']
     
-    number_of_images = 1000
+    number_of_images = 2000
     i = 0
     for i in range(number_of_images):
                 
+        rows = random.randint(3, 6)
         row_spacing = random.randint(5, 30) # spacing between each row
         field_height = random.randint(16, 40)
         button_height = random.randint(16, 40)
+        form_height = random.randint(15 + (rows - 1) * (row_spacing + field_height) + button_height + row_spacing, rows * 100)
+        form_width = random.randint(400, 800)
+        form_background_color = generate_light_color()
+        
+        form = Form(form_background_color, form_width, form_height, rows, row_spacing + field_height)
+        
+        field_font_size = random.uniform(0.6, 0.8)
+        field_font = ImageFont.truetype("arial.ttf", int(field_height * field_font_size))
+        field_background_color = generate_very_light_color()
+        button_font_size = random.uniform(0.6, 0.8)
         field_has_value = random.choices([True, False])[0]   # does the field has a value inside
         yolo_coordinates = []
+        field_aligned = random.randint(0, 1)
+        field_names = random.choices(labels, k=rows - 1)
+        field_min_label_size = max([form.img_draw.textsize(n, field_font)[0] for n in field_names])
+        field_fixed_size = random.randint(field_min_label_size + 10, field_min_label_size + 30)
         
-        rows = random.randint(3, 6)
         button_color = generate_dark_color()
         button__label_color = generate_light_color()
         label_color = generate_dark_color()
-        background_color = generate_light_color()
         
-        form_height = random.randint((rows - 1) * (row_spacing + field_height) + button_height + row_spacing, rows * 100)
-        form_width = random.randint(400, 800)
         
-        form = Form(background_color, form_width, form_height, rows, row_spacing + field_height)
         
-        for row_id in range(rows - 1):
-            field_name = random.choice(labels)
-            field_width = random.randint(len(field_name) * 15, form_width - len(field_name) * 15 - 30) # (10 px of left margin + 20 px of space between text and field)
+        for row_id, field_name in enumerate(field_names):
+            
+            if field_aligned: # field aligned
+                field_label_size = field_fixed_size
+            else:
+                field_label_size = form.img_draw.textsize(field_name, field_font)[0]
+            
+            field_width = random.randint(len(field_name) * 15, form_width - field_label_size - 30) # (10 px of left margin + 20 px of space between text and field)
             
             if field_has_value:
                 field_value = field_name
@@ -225,11 +251,14 @@ if __name__ == '__main__':
             
             text_field = TextField(field_width, # field width 
                                    field_height,              # field height
-                                   random.randint(0, 2),                # corners
-                                   (background_color[0] - 10, background_color[1] - 10, background_color[2] - 10) , # border color
+                                   random.randint(0, 3),                # corners
+                                   (form_background_color[0] - 15, form_background_color[1] - 15, form_background_color[2] - 15) , # border color
                                    field_name,                          # name of the text field
                                    label_color, 
-                                   field_value)
+                                   field_value, 
+                                   field_font,
+                                   field_background_color,
+                                   field_label_size)
             yolo_coordinates.append(form.draw(10, text_field, row_id))
     
         # buttons
@@ -238,12 +267,15 @@ if __name__ == '__main__':
         button_position_x = random.randint(10, form_width - button_width - 20)
         button = Button(button_width, 
                         button_height,
-                        random.randint(0, 2),                # corners
+                        random.randint(0, 3),                # corners
                         button_color, 
                         button_name, 
-                        button__label_color)
+                        button__label_color,
+                        button_font_size)
         yolo_coordinates.append(form.draw(button_position_x, button, rows - 1))
+        image_quality = random.randint(70, 100)
         
-        form.create_image("out/out-{}.jpg".format(i), yolo_coordinates)
+        print("image " + str(i))
+        form.create_image("out/out-{}.jpg".format(i), yolo_coordinates, image_quality)
     
   
