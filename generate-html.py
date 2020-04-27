@@ -8,6 +8,9 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 import sys
 import os
+from colormath.color_objects import sRGBColor, LabColor
+from colormath.color_conversions import convert_color
+from colormath.color_diff import delta_e_cie2000
 
  
 class TextField:
@@ -192,9 +195,48 @@ def generate_dark_color():
     thrid_channel = random.randint(0, min(255, max_sum - first_channel - second_channel))
     color = [first_channel, second_channel, thrid_channel]
     random.shuffle(color)
-    return tuple(color)     
+    return tuple(color) 
+
+
+def luminance(color):
+    
+    def factor(channel_value):
+        channel_factor = channel_value / 255.
+        if channel_factor <= 0.03928:
+            channel_factor = channel_factor / 12.92;
+        else:
+            channel_factor = ((channel_factor + 0.055) / 1.055) ** 2.4
+        return channel_factor
+
+    return (factor(color[0]) * 0.2126 + factor(color[1]) * 0.7152 + factor(color[2]) * 0.0722) + 0.05; 
+
+def compute_color_diff(color1, color2):
+    
+    lum1 = luminance(color1);
+    lum2 = luminance(color2);
+    brightest = max(lum1, lum2);
+    darkest = min(lum1, lum2);
+    return brightest / darkest;
+    
+#     color1_rgb = sRGBColor(color1[0] / 255., color1[1] / 255., color1[2] / 255.);
+#     color2_rgb = sRGBColor(color2[0] / 255., color2[1] / 255., color2[2] / 255.); 
+#     
+#     color1_lab = convert_color(color1_rgb, LabColor);
+#     color2_lab = convert_color(color2_rgb, LabColor);
+#     
+#     return delta_e_cie2000(color1_lab, color2_lab);  
+
+
 
 if __name__ == '__main__':
+    
+    min_width = 300
+    max_width = 416
+    min_rows = 2
+    max_rows = 2
+    min_field_height = 16
+    max_field_height = 30 # may be 40 when field width is greater
+    number_of_images = 1000
     
     
     os.makedirs('out', exist_ok=True)
@@ -204,16 +246,15 @@ if __name__ == '__main__':
               'Age', 'Message', 'zip code', 'Code postal', 'Country', 'Pays', 'State', 'Company', 'Entreprise', 'URL']
     button_labels = ['OK', 'Validate', 'Cancel', 'Save', 'Hello', 'Enregistrer', 'continue', 'Stop', 'Ajouter', 'Add', 'Remove', 'Supprimer']
     
-    number_of_images = 2000
     i = 0
     for i in range(number_of_images):
                 
-        rows = random.randint(3, 6)
+        rows = random.randint(min_rows, max_rows)
         row_spacing = random.randint(5, 30) # spacing between each row
-        field_height = random.randint(16, 40)
-        button_height = random.randint(16, 40)
+        field_height = random.randint(min_field_height, max_field_height)
+        button_height = random.randint(min_field_height, max_field_height)
         form_height = random.randint(15 + (rows - 1) * (row_spacing + field_height) + button_height + row_spacing, rows * 100)
-        form_width = random.randint(400, 800)
+        form_width = random.randint(min_width, max_width)
         form_background_color = generate_light_color()
         
         form = Form(form_background_color, form_width, form_height, rows, row_spacing + field_height)
@@ -229,11 +270,17 @@ if __name__ == '__main__':
         field_min_label_size = max([form.img_draw.textsize(n, field_font)[0] for n in field_names])
         field_fixed_size = random.randint(field_min_label_size + 10, field_min_label_size + 30)
         
-        button_color = generate_dark_color()
-        button__label_color = generate_light_color()
-        label_color = generate_dark_color()
         
-        
+        form_color_diff = 0
+        while form_color_diff < 4:
+            label_color = generate_dark_color()
+            form_color_diff = compute_color_diff(label_color, form_background_color)
+            
+        button_color_diff = 0
+        while button_color_diff < 2:
+            button_color = generate_dark_color()
+            button_label_color = generate_light_color()
+            button_color_diff = compute_color_diff(button_color, button_label_color)
         
         for row_id, field_name in enumerate(field_names):
             
@@ -242,7 +289,7 @@ if __name__ == '__main__':
             else:
                 field_label_size = form.img_draw.textsize(field_name, field_font)[0]
             
-            field_width = random.randint(len(field_name) * 15, form_width - field_label_size - 30) # (10 px of left margin + 20 px of space between text and field)
+            field_width = random.randint(form.img_draw.textsize(field_name, field_font)[0], form_width - field_label_size - 30) # (10 px of left margin + 20 px of space between text and field)
             
             if field_has_value:
                 field_value = field_name
@@ -270,7 +317,7 @@ if __name__ == '__main__':
                         random.randint(0, 3),                # corners
                         button_color, 
                         button_name, 
-                        button__label_color,
+                        button_label_color,
                         button_font_size)
         yolo_coordinates.append(form.draw(button_position_x, button, rows - 1))
         image_quality = random.randint(70, 100)
