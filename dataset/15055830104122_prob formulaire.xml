@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>15055830104122_prob formulaire.jpeg</filename>
-	<path>D:\Dev\yolo\dataset\images\15055830104122_prob formulaire.jpeg</path>
+	<folder>dataset</folder>
+	<filename>15055830104122_prob formulaire.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\15055830104122_prob formulaire.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>470</ymin>
 			<xmax>381</xmax>
 			<ymax>513</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>6</xmin>
+			<ymin>217</ymin>
+			<xmax>399</xmax>
+			<ymax>521</ymax>
 		</bndbox>
 	</object>
 </annotation>

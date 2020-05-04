@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>webform-8.x.5.x-features--templates-preview.png</filename>
-	<path>D:\Dev\yolo\dataset\images\webform-8.x.5.x-features--templates-preview.png</path>
+	<folder>dataset</folder>
+	<filename>webform-8.x.5.x-features--templates-preview.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\webform-8.x.5.x-features--templates-preview.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -237,6 +237,42 @@
 			<ymin>838</ymin>
 			<xmax>309</xmax>
 			<ymax>867</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>109</xmin>
+			<ymin>202</ymin>
+			<xmax>634</xmax>
+			<ymax>430</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>108</xmin>
+			<ymin>437</ymin>
+			<xmax>633</xmax>
+			<ymax>666</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>104</xmin>
+			<ymin>658</ymin>
+			<xmax>629</xmax>
+			<ymax>886</ymax>
 		</bndbox>
 	</object>
 </annotation>

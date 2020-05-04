@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>create-any-html-form-with-proper-javascript-validation-for-your-website-like-feedback-form-contact-us-form-etc.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\create-any-html-form-with-proper-javascript-validation-for-your-website-like-feedback-form-contact-us-form-etc.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\create-any-html-form-with-proper-javascript-validation-for-your-website-like-feedback-form-contact-us-form-etc.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -153,6 +153,18 @@
 			<ymin>285</ymin>
 			<xmax>297</xmax>
 			<ymax>304</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>416</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>create-new-account-web-form-design-website-user-interface-registration-page-template-ui-gui-ux-vector-create-new-118105036.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\create-new-account-web-form-design-website-user-interface-registration-page-template-ui-gui-ux-vector-create-new-118105036.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\create-new-account-web-form-design-website-user-interface-registration-page-template-ui-gui-ux-vector-create-new-118105036.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -117,6 +117,30 @@
 			<ymin>1085</ymin>
 			<xmax>842</xmax>
 			<ymax>1208</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>205</xmin>
+			<ymin>412</ymin>
+			<xmax>1088</xmax>
+			<ymax>1034</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>206</xmin>
+			<ymin>678</ymin>
+			<xmax>1089</xmax>
+			<ymax>1299</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
-	<filename>Contact Form 1 Using HTML5 And CSS3.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\Contact Form 1 Using HTML5 And CSS3.png</path>
+	<folder>dataset</folder>
+	<filename>Contact Form 1 Using HTML5 And CSS3.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\Contact Form 1 Using HTML5 And CSS3.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,30 @@
 			<ymin>565</ymin>
 			<xmax>1025</xmax>
 			<ymax>622</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>725</xmin>
+			<ymin>141</ymin>
+			<xmax>1141</xmax>
+			<ymax>557</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>721</xmin>
+			<ymin>290</ymin>
+			<xmax>1137</xmax>
+			<ymax>706</ymax>
 		</bndbox>
 	</object>
 </annotation>

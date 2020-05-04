@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>trendywebdesign.nilarian.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\trendywebdesign.nilarian.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\trendywebdesign.nilarian.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,18 @@
 			<ymin>368</ymin>
 			<xmax>417</xmax>
 			<ymax>396</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>101</xmin>
+			<ymin>237</ymin>
+			<xmax>518</xmax>
+			<ymax>453</ymax>
 		</bndbox>
 	</object>
 </annotation>

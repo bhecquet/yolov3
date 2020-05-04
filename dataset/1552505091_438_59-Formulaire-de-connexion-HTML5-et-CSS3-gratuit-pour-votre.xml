@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>1552505091_438_59-Formulaire-de-connexion-HTML5-et-CSS3-gratuit-pour-votre.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\1552505091_438_59-Formulaire-de-connexion-HTML5-et-CSS3-gratuit-pour-votre.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\1552505091_438_59-Formulaire-de-connexion-HTML5-et-CSS3-gratuit-pour-votre.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -141,6 +141,18 @@
 			<ymin>44</ymin>
 			<xmax>1062</xmax>
 			<ymax>74</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>322</xmin>
+			<ymin>67</ymin>
+			<xmax>738</xmax>
+			<ymax>483</ymax>
 		</bndbox>
 	</object>
 </annotation>

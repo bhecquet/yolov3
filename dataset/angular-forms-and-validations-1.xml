@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>angular-forms-and-validations-1.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\angular-forms-and-validations-1.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\angular-forms-and-validations-1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -153,6 +153,42 @@
 			<ymin>610</ymin>
 			<xmax>361</xmax>
 			<ymax>653</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>246</xmin>
+			<ymin>57</ymin>
+			<xmax>728</xmax>
+			<ymax>459</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>734</xmin>
+			<ymin>26</ymin>
+			<xmax>1216</xmax>
+			<ymax>428</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>248</xmin>
+			<ymin>261</ymin>
+			<xmax>730</xmax>
+			<ymax>663</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Good-Looking-Form-Without-Table.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Good-Looking-Form-Without-Table.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Good-Looking-Form-Without-Table.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>331</ymin>
 			<xmax>392</xmax>
 			<ymax>354</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>34</xmin>
+			<ymin>36</ymin>
+			<xmax>416</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

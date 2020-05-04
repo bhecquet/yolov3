@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>123contacform.png</filename>
-	<path>D:\Dev\yolo\dataset\images\123contacform.png</path>
+	<folder>dataset</folder>
+	<filename>123contacform.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\123contacform.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -57,6 +57,18 @@
 			<ymin>538</ymin>
 			<xmax>847</xmax>
 			<ymax>578</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>527</xmin>
+			<ymin>187</ymin>
+			<xmax>943</xmax>
+			<ymax>603</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
+	<folder>dataset</folder>
 	<filename>sparked-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\sparked-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\sparked-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>221</ymin>
 			<xmax>512</xmax>
 			<ymax>231</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>346</xmin>
+			<ymin>16</ymin>
+			<xmax>650</xmax>
+			<ymax>304</ymax>
 		</bndbox>
 	</object>
 </annotation>

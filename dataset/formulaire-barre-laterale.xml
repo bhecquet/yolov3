@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
-	<filename>formulaire-barre-laterale.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\formulaire-barre-laterale.png</path>
+	<folder>dataset</folder>
+	<filename>formulaire-barre-laterale.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\formulaire-barre-laterale.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -129,6 +129,18 @@
 			<ymin>154</ymin>
 			<xmax>352</xmax>
 			<ymax>180</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>275</xmin>
+			<ymin>32</ymin>
+			<xmax>577</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

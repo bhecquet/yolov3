@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>bootstrap-form-sample.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\bootstrap-form-sample.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\bootstrap-form-sample.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,18 @@
 			<ymin>358</ymin>
 			<xmax>84</xmax>
 			<ymax>396</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>13</ymin>
+			<xmax>527</xmax>
+			<ymax>405</ymax>
 		</bndbox>
 	</object>
 </annotation>

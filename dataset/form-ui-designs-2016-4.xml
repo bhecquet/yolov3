@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
+	<folder>dataset</folder>
 	<filename>form-ui-designs-2016-4.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\form-ui-designs-2016-4.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\form-ui-designs-2016-4.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>343</ymin>
 			<xmax>449</xmax>
 			<ymax>382</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>51</ymin>
+			<xmax>530</xmax>
+			<ymax>467</ymax>
 		</bndbox>
 	</object>
 </annotation>

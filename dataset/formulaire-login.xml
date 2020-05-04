@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>formulaire-login.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaire-login.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\formulaire-login.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>456</ymin>
 			<xmax>364</xmax>
 			<ymax>527</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>137</ymin>
+			<xmax>437</xmax>
+			<ymax>553</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>utilisation-elements-html-fieldset-legend.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\utilisation-elements-html-fieldset-legend.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\utilisation-elements-html-fieldset-legend.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -153,6 +153,30 @@
 			<ymin>4</ymin>
 			<xmax>175</xmax>
 			<ymax>30</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>416</xmax>
+			<ymax>325</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>200</xmin>
+			<ymin>1</ymin>
+			<xmax>624</xmax>
+			<ymax>41</ymax>
 		</bndbox>
 	</object>
 </annotation>

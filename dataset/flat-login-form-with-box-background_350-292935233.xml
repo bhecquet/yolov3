@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
+	<folder>dataset</folder>
 	<filename>flat-login-form-with-box-background_350-292935233.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\flat-login-form-with-box-background_350-292935233.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\flat-login-form-with-box-background_350-292935233.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>241</ymin>
 			<xmax>413</xmax>
 			<ymax>286</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>81</xmin>
+			<ymin>1</ymin>
+			<xmax>498</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

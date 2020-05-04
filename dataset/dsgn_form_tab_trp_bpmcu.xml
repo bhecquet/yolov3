@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>dsgn_form_tab_trp_bpmcu.png</filename>
-	<path>D:\Dev\yolo\dataset\images\dsgn_form_tab_trp_bpmcu.png</path>
+	<folder>dataset</folder>
+	<filename>dsgn_form_tab_trp_bpmcu.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\dsgn_form_tab_trp_bpmcu.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -141,6 +141,30 @@
 			<ymin>488</ymin>
 			<xmax>258</xmax>
 			<ymax>548</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>416</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>138</ymin>
+			<xmax>416</xmax>
+			<ymax>554</ymax>
 		</bndbox>
 	</object>
 </annotation>

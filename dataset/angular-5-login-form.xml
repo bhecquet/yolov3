@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>angular-5-login-form.png</filename>
-	<path>D:\Dev\yolo\dataset\images\angular-5-login-form.png</path>
+	<folder>dataset</folder>
+	<filename>angular-5-login-form.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\angular-5-login-form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>315</ymin>
 			<xmax>618</xmax>
 			<ymax>373</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>14</ymin>
+			<xmax>628</xmax>
+			<ymax>388</ymax>
 		</bndbox>
 	</object>
 </annotation>

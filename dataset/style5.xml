@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>style5.png</filename>
-	<path>D:\Dev\yolo\dataset\images\style5.png</path>
+	<folder>dataset</folder>
+	<filename>style5.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\style5.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>517</ymin>
 			<xmax>390</xmax>
 			<ymax>554</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>125</xmin>
+			<ymin>159</ymin>
+			<xmax>541</xmax>
+			<ymax>575</ymax>
 		</bndbox>
 	</object>
 </annotation>

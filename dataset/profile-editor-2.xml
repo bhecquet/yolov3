@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>profile-editor-2.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\profile-editor-2.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\profile-editor-2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,18 @@
 			<ymin>388</ymin>
 			<xmax>88</xmax>
 			<ymax>420</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>13</ymin>
+			<xmax>221</xmax>
+			<ymax>424</ymax>
 		</bndbox>
 	</object>
 </annotation>

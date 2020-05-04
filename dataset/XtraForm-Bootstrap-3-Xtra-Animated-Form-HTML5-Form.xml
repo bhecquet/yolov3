@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>XtraForm-Bootstrap-3-Xtra-Animated-Form-HTML5-Form.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\XtraForm-Bootstrap-3-Xtra-Animated-Form-HTML5-Form.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\XtraForm-Bootstrap-3-Xtra-Animated-Form-HTML5-Form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,30 @@
 			<ymin>601</ymin>
 			<xmax>450</xmax>
 			<ymax>637</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>109</xmin>
+			<ymin>177</ymin>
+			<xmax>464</xmax>
+			<ymax>589</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>117</xmin>
+			<ymin>259</ymin>
+			<xmax>465</xmax>
+			<ymax>667</ymax>
 		</bndbox>
 	</object>
 </annotation>

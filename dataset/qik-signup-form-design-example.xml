@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>qik-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\qik-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\qik-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>469</ymin>
 			<xmax>383</xmax>
 			<ymax>508</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>104</xmin>
+			<ymin>117</ymin>
+			<xmax>520</xmax>
+			<ymax>533</ymax>
 		</bndbox>
 	</object>
 </annotation>

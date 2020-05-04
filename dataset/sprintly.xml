@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
-	<filename>sprintly.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\sprintly.png</path>
+	<folder>dataset</folder>
+	<filename>sprintly.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\sprintly.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -129,6 +129,18 @@
 			<ymin>467</ymin>
 			<xmax>118</xmax>
 			<ymax>492</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>101</ymin>
+			<xmax>416</xmax>
+			<ymax>517</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>experts-exchange-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\experts-exchange-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\experts-exchange-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -261,6 +261,30 @@
 			<ymin>861</ymin>
 			<xmax>270</xmax>
 			<ymax>889</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>18</ymin>
+			<xmax>426</xmax>
+			<ymax>434</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>8</xmin>
+			<ymin>481</ymin>
+			<xmax>424</xmax>
+			<ymax>897</ymax>
 		</bndbox>
 	</object>
 </annotation>

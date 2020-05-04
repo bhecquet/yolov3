@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>green-globe.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\green-globe.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\green-globe.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>137</ymin>
 			<xmax>301</xmax>
 			<ymax>165</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>350</xmax>
+			<ymax>204</ymax>
 		</bndbox>
 	</object>
 </annotation>

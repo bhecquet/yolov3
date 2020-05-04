@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>html-css-form-design.JPG</filename>
-	<path>D:\Dev\yolo\dataset\images\html-css-form-design.JPG</path>
+	<path>D:\Dev\yolo\yolov3\dataset\html-css-form-design.JPG</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,18 @@
 			<ymin>448</ymin>
 			<xmax>306</xmax>
 			<ymax>486</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>63</xmin>
+			<ymin>163</ymin>
+			<xmax>479</xmax>
+			<ymax>579</ymax>
 		</bndbox>
 	</object>
 </annotation>

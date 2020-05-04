@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Example Send Order Form Validation Bootstrap + Jquery.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Example Send Order Form Validation Bootstrap + Jquery.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Example Send Order Form Validation Bootstrap + Jquery.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>21</ymin>
 			<xmax>572</xmax>
 			<ymax>61</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>19</xmin>
+			<ymin>5</ymin>
+			<xmax>578</xmax>
+			<ymax>461</ymax>
 		</bndbox>
 	</object>
 </annotation>

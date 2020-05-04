@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>intuitionhq-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\intuitionhq-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\intuitionhq-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,30 @@
 			<ymin>516</ymin>
 			<xmax>133</xmax>
 			<ymax>542</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>355</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>170</ymin>
+			<xmax>355</xmax>
+			<ymax>586</ymax>
 		</bndbox>
 	</object>
 </annotation>

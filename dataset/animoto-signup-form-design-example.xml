@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>animoto-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\animoto-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\animoto-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,30 @@
 			<ymin>275</ymin>
 			<xmax>613</xmax>
 			<ymax>302</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>300</xmin>
+			<ymin>78</ymin>
+			<xmax>650</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>73</ymin>
+			<xmax>283</xmax>
+			<ymax>192</ymax>
 		</bndbox>
 	</object>
 </annotation>

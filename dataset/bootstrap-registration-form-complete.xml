@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>bootstrap-registration-form-complete.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\bootstrap-registration-form-complete.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\bootstrap-registration-form-complete.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -201,6 +201,30 @@
 			<ymin>610</ymin>
 			<xmax>545</xmax>
 			<ymax>645</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>136</xmin>
+			<ymin>18</ymin>
+			<xmax>552</xmax>
+			<ymax>434</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>133</xmin>
+			<ymin>238</ymin>
+			<xmax>549</xmax>
+			<ymax>654</ymax>
 		</bndbox>
 	</object>
 </annotation>

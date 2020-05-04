@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
+	<folder>dataset</folder>
 	<filename>2389c10ed99d95904d264a5e29b13066--design-ui-interface-design.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\2389c10ed99d95904d264a5e29b13066--design-ui-interface-design.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\2389c10ed99d95904d264a5e29b13066--design-ui-interface-design.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>281</ymin>
 			<xmax>351</xmax>
 			<ymax>313</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>72</xmin>
+			<ymin>1</ymin>
+			<xmax>488</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

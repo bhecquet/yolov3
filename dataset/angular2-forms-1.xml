@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>angular2-forms-1.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\angular2-forms-1.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\angular2-forms-1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -57,6 +57,18 @@
 			<ymin>592</ymin>
 			<xmax>237</xmax>
 			<ymax>664</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>37</xmin>
+			<ymin>129</ymin>
+			<xmax>708</xmax>
+			<ymax>673</ymax>
 		</bndbox>
 	</object>
 </annotation>

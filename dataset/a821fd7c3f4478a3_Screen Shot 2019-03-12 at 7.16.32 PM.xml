@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>a821fd7c3f4478a3_Screen Shot 2019-03-12 at 7.16.32 PM.webp</filename>
-	<path>D:\Dev\yolo\dataset\images\a821fd7c3f4478a3_Screen Shot 2019-03-12 at 7.16.32 PM.webp</path>
+	<folder>dataset</folder>
+	<filename>a821fd7c3f4478a3_Screen Shot 2019-03-12 at 7.16.32 PM.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\a821fd7c3f4478a3_Screen Shot 2019-03-12 at 7.16.32 PM.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>279</ymin>
 			<xmax>596</xmax>
 			<ymax>336</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>218</xmin>
+			<ymin>76</ymin>
+			<xmax>634</xmax>
+			<ymax>492</ymax>
 		</bndbox>
 	</object>
 </annotation>

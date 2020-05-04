@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>chap10-058.png</filename>
-	<path>D:\Dev\yolo\dataset\images\chap10-058.png</path>
+	<folder>dataset</folder>
+	<filename>chap10-058.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\chap10-058.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -57,6 +57,30 @@
 			<ymin>480</ymin>
 			<xmax>464</xmax>
 			<ymax>534</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>55</xmin>
+			<ymin>52</ymin>
+			<xmax>471</xmax>
+			<ymax>468</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>56</xmin>
+			<ymin>139</ymin>
+			<xmax>472</xmax>
+			<ymax>556</ymax>
 		</bndbox>
 	</object>
 </annotation>

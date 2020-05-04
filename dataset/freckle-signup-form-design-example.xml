@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>freckle-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\freckle-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\freckle-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -210,9 +210,33 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>23</xmin>
-			<ymin>1111</ymin>
-			<xmax>209</xmax>
+			<ymin>1107</ymin>
+			<xmax>41</xmax>
 			<ymax>1130</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>11</xmin>
+			<ymin>137</ymin>
+			<xmax>427</xmax>
+			<ymax>553</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>494</ymin>
+			<xmax>430</xmax>
+			<ymax>911</ymax>
 		</bndbox>
 	</object>
 </annotation>

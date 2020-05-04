@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>rsvp-form-edit.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\rsvp-form-edit.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\rsvp-form-edit.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>710</ymin>
 			<xmax>257</xmax>
 			<ymax>756</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>106</xmin>
+			<ymin>355</ymin>
+			<xmax>996</xmax>
+			<ymax>758</ymax>
 		</bndbox>
 	</object>
 </annotation>

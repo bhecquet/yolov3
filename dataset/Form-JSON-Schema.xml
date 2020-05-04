@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Form-JSON-Schema.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Form-JSON-Schema.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Form-JSON-Schema.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>248</ymin>
 			<xmax>277</xmax>
 			<ymax>271</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>193</xmin>
+			<ymin>26</ymin>
+			<xmax>522</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

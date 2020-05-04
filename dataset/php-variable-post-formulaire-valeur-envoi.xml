@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>php-variable-post-formulaire-valeur-envoi.png</filename>
-	<path>D:\Dev\yolo\dataset\images\php-variable-post-formulaire-valeur-envoi.png</path>
+	<folder>dataset</folder>
+	<filename>php-variable-post-formulaire-valeur-envoi.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\php-variable-post-formulaire-valeur-envoi.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>412</ymin>
 			<xmax>115</xmax>
 			<ymax>447</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>84</ymin>
+			<xmax>416</xmax>
+			<ymax>500</ymax>
 		</bndbox>
 	</object>
 </annotation>

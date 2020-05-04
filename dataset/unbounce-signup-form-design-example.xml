@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>unbounce-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\unbounce-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\unbounce-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -117,6 +117,30 @@
 			<ymin>576</ymin>
 			<xmax>132</xmax>
 			<ymax>606</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>84</ymin>
+			<xmax>496</xmax>
+			<ymax>427</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>26</xmin>
+			<ymin>269</ymin>
+			<xmax>501</xmax>
+			<ymax>612</ymax>
 		</bndbox>
 	</object>
 </annotation>

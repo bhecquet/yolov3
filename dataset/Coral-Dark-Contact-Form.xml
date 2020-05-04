@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>Coral-Dark-Contact-Form.png</filename>
-	<path>D:\Dev\yolo\dataset\images\Coral-Dark-Contact-Form.png</path>
+	<folder>dataset</folder>
+	<filename>Coral-Dark-Contact-Form.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\Coral-Dark-Contact-Form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,30 @@
 			<ymin>646</ymin>
 			<xmax>392</xmax>
 			<ymax>687</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>262</xmin>
+			<ymin>138</ymin>
+			<xmax>678</xmax>
+			<ymax>554</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>281</xmin>
+			<ymin>290</ymin>
+			<xmax>697</xmax>
+			<ymax>706</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
-	<filename>Retro-UI-feedback-form-html-css.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\Retro-UI-feedback-form-html-css.png</path>
+	<folder>dataset</folder>
+	<filename>Retro-UI-feedback-form-html-css.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\Retro-UI-feedback-form-html-css.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>418</ymin>
 			<xmax>747</xmax>
 			<ymax>451</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>496</xmin>
+			<ymin>237</ymin>
+			<xmax>779</xmax>
+			<ymax>490</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>hybrid-green-form.webp</filename>
-	<path>D:\Dev\yolo\dataset\images\hybrid-green-form.webp</path>
+	<folder>dataset</folder>
+	<filename>hybrid-green-form.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\hybrid-green-form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -57,6 +57,18 @@
 			<ymin>328</ymin>
 			<xmax>342</xmax>
 			<ymax>369</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>72</ymin>
+			<xmax>541</xmax>
+			<ymax>376</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>gowalla.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\gowalla.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\gowalla.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,18 @@
 			<ymin>366</ymin>
 			<xmax>109</xmax>
 			<ymax>397</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>336</xmax>
+			<ymax>405</ymax>
 		</bndbox>
 	</object>
 </annotation>

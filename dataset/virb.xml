@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>virb.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\virb.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\virb.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,18 @@
 			<ymin>607</ymin>
 			<xmax>552</xmax>
 			<ymax>634</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>141</xmin>
+			<ymin>224</ymin>
+			<xmax>557</xmax>
+			<ymax>640</ymax>
 		</bndbox>
 	</object>
 </annotation>

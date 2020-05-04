@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
-	<filename>website-design-field-inputs.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\website-design-field-inputs.png</path>
+	<folder>dataset</folder>
+	<filename>website-design-field-inputs.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\website-design-field-inputs.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,42 @@
 			<ymin>204</ymin>
 			<xmax>881</xmax>
 			<ymax>247</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>4</ymin>
+			<xmax>307</xmax>
+			<ymax>275</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>299</xmin>
+			<ymin>4</ymin>
+			<xmax>606</xmax>
+			<ymax>275</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>590</xmin>
+			<ymin>4</ymin>
+			<xmax>897</xmax>
+			<ymax>275</ymax>
 		</bndbox>
 	</object>
 </annotation>

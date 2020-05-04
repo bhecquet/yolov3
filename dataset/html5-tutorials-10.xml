@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>html5-tutorials-10.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\html5-tutorials-10.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\html5-tutorials-10.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -164,6 +164,30 @@
 			<xmin>246</xmin>
 			<ymin>481</ymin>
 			<xmax>333</xmax>
+			<ymax>508</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>101</xmin>
+			<ymin>2</ymin>
+			<xmax>517</xmax>
+			<ymax>418</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>90</xmin>
+			<ymin>92</ymin>
+			<xmax>506</xmax>
 			<ymax>508</ymax>
 		</bndbox>
 	</object>

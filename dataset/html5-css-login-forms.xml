@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
+	<folder>dataset</folder>
 	<filename>html5-css-login-forms.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\html5-css-login-forms.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\html5-css-login-forms.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>193</ymin>
 			<xmax>427</xmax>
 			<ymax>225</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>189</xmin>
+			<ymin>47</ymin>
+			<xmax>474</xmax>
+			<ymax>320</ymax>
 		</bndbox>
 	</object>
 </annotation>

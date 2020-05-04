@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>treesize.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\treesize.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\treesize.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,42 @@
 			<ymin>431</ymin>
 			<xmax>952</xmax>
 			<ymax>456</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>229</xmin>
+			<ymin>353</ymin>
+			<xmax>611</xmax>
+			<ymax>555</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>783</xmin>
+			<ymin>117</ymin>
+			<xmax>1015</xmax>
+			<ymax>300</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>780</xmin>
+			<ymin>313</ymin>
+			<xmax>1012</xmax>
+			<ymax>496</ymax>
 		</bndbox>
 	</object>
 </annotation>

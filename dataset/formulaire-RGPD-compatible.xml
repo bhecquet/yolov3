@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>formulaire-RGPD-compatible.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaire-RGPD-compatible.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\formulaire-RGPD-compatible.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>965</ymin>
 			<xmax>1453</xmax>
 			<ymax>1029</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>123</ymin>
+			<xmax>2138</xmax>
+			<ymax>1128</ymax>
 		</bndbox>
 	</object>
 </annotation>

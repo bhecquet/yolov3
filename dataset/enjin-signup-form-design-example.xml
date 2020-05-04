@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>enjin-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\enjin-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\enjin-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>385</ymin>
 			<xmax>250</xmax>
 			<ymax>424</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>24</ymin>
+			<xmax>432</xmax>
+			<ymax>440</ymax>
 		</bndbox>
 	</object>
 </annotation>

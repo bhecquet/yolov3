@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>iVSD7.png</filename>
-	<path>D:\Dev\yolo\dataset\images\iVSD7.png</path>
+	<folder>dataset</folder>
+	<filename>iVSD7.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\iVSD7.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -117,6 +117,30 @@
 			<ymin>643</ymin>
 			<xmax>432</xmax>
 			<ymax>684</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>11</xmin>
+			<ymin>3</ymin>
+			<xmax>427</xmax>
+			<ymax>419</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>20</xmin>
+			<ymin>277</ymin>
+			<xmax>436</xmax>
+			<ymax>693</ymax>
 		</bndbox>
 	</object>
 </annotation>

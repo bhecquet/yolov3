@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
-	<filename>login-form-psd.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\login-form-psd.png</path>
+	<folder>dataset</folder>
+	<filename>login-form-psd.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\login-form-psd.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>294</ymin>
 			<xmax>377</xmax>
 			<ymax>345</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>1</ymin>
+			<xmax>461</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

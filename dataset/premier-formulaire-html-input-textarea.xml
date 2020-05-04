@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>premier-formulaire-html-input-textarea.png</filename>
-	<path>D:\Dev\yolo\dataset\images\premier-formulaire-html-input-textarea.png</path>
+	<folder>dataset</folder>
+	<filename>premier-formulaire-html-input-textarea.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\premier-formulaire-html-input-textarea.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>215</ymin>
 			<xmax>69</xmax>
 			<ymax>237</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>54</ymin>
+			<xmax>337</xmax>
+			<ymax>249</ymax>
 		</bndbox>
 	</object>
 </annotation>

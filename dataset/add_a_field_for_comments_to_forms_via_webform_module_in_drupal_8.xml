@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>add_a_field_for_comments_to_forms_via_webform_module_in_drupal_8.png</filename>
-	<path>D:\Dev\yolo\dataset\images\add_a_field_for_comments_to_forms_via_webform_module_in_drupal_8.png</path>
+	<folder>dataset</folder>
+	<filename>add_a_field_for_comments_to_forms_via_webform_module_in_drupal_8.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\add_a_field_for_comments_to_forms_via_webform_module_in_drupal_8.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -225,6 +225,30 @@
 			<ymin>732</ymin>
 			<xmax>22</xmax>
 			<ymax>742</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>79</ymin>
+			<xmax>402</xmax>
+			<ymax>495</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>335</ymin>
+			<xmax>402</xmax>
+			<ymax>751</ymax>
 		</bndbox>
 	</object>
 </annotation>

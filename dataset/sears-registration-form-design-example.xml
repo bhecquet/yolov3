@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>sears-registration-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\sears-registration-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\sears-registration-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,30 @@
 			<ymin>474</ymin>
 			<xmax>348</xmax>
 			<ymax>507</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>17</xmin>
+			<ymin>83</ymin>
+			<xmax>433</xmax>
+			<ymax>366</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>109</xmin>
+			<ymin>314</ymin>
+			<xmax>366</xmax>
+			<ymax>575</ymax>
 		</bndbox>
 	</object>
 </annotation>

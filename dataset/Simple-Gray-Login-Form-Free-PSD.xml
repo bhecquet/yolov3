@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
+	<folder>dataset</folder>
 	<filename>Simple-Gray-Login-Form-Free-PSD.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\Simple-Gray-Login-Form-Free-PSD.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Simple-Gray-Login-Form-Free-PSD.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>257</ymin>
 			<xmax>355</xmax>
 			<ymax>288</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>36</ymin>
+			<xmax>420</xmax>
+			<ymax>341</ymax>
 		</bndbox>
 	</object>
 </annotation>

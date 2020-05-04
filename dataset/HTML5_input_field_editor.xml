@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>HTML5_input_field_editor.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\HTML5_input_field_editor.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\HTML5_input_field_editor.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -189,6 +189,54 @@
 			<ymin>835</ymin>
 			<xmax>583</xmax>
 			<ymax>856</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>480</xmin>
+			<ymin>41</ymin>
+			<xmax>896</xmax>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>478</xmin>
+			<ymin>266</ymin>
+			<xmax>894</xmax>
+			<ymax>682</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>479</xmin>
+			<ymin>452</ymin>
+			<xmax>895</xmax>
+			<ymax>868</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>143</xmax>
+			<ymax>58</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>machform-form-builder.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\machform-form-builder.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\machform-form-builder.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,18 @@
 			<ymin>342</ymin>
 			<xmax>430</xmax>
 			<ymax>367</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>36</xmin>
+			<ymin>170</ymin>
+			<xmax>437</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

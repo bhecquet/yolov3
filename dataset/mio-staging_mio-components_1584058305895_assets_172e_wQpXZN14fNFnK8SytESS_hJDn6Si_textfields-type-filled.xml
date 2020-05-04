@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>mio-staging_mio-components_1584058305895_assets_172e_wQpXZN14fNFnK8SytESS_hJDn6Si_textfields-type-filled.png</filename>
-	<path>D:\Dev\yolo\dataset\images\mio-staging_mio-components_1584058305895_assets_172e_wQpXZN14fNFnK8SytESS_hJDn6Si_textfields-type-filled.png</path>
+	<folder>dataset</folder>
+	<filename>mio-staging_mio-components_1584058305895_assets_172e_wQpXZN14fNFnK8SytESS_hJDn6Si_textfields-type-filled.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\mio-staging_mio-components_1584058305895_assets_172e_wQpXZN14fNFnK8SytESS_hJDn6Si_textfields-type-filled.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -117,6 +117,30 @@
 			<ymin>1165</ymin>
 			<xmax>671</xmax>
 			<ymax>1280</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>29</xmin>
+			<ymin>178</ymin>
+			<xmax>694</xmax>
+			<ymax>822</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>29</xmin>
+			<ymin>636</ymin>
+			<xmax>694</xmax>
+			<ymax>1279</ymax>
 		</bndbox>
 	</object>
 </annotation>

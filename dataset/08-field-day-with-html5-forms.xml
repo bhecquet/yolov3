@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>08-field-day-with-html5-forms.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\08-field-day-with-html5-forms.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\08-field-day-with-html5-forms.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>214</ymin>
 			<xmax>472</xmax>
 			<ymax>249</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>78</xmin>
+			<ymin>1</ymin>
+			<xmax>494</xmax>
+			<ymax>266</ymax>
 		</bndbox>
 	</object>
 </annotation>

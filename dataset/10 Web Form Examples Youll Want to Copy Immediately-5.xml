@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>10 Web Form Examples Youll Want to Copy Immediately-5.webp</filename>
-	<path>D:\Dev\yolo\dataset\images\10 Web Form Examples Youll Want to Copy Immediately-5.webp</path>
+	<folder>dataset</folder>
+	<filename>10 Web Form Examples Youll Want to Copy Immediately-5.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\10 Web Form Examples Youll Want to Copy Immediately-5.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,30 @@
 			<ymin>1250</ymin>
 			<xmax>342</xmax>
 			<ymax>1321</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>219</ymin>
+			<xmax>552</xmax>
+			<ymax>632</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>40</xmin>
+			<ymin>614</ymin>
+			<xmax>584</xmax>
+			<ymax>1009</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Material_Angular_Form-e1510836044744.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Material_Angular_Form-e1510836044744.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Material_Angular_Form-e1510836044744.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,30 @@
 			<ymin>217</ymin>
 			<xmax>112</xmax>
 			<ymax>254</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>12</xmin>
+			<ymin>1</ymin>
+			<xmax>428</xmax>
+			<ymax>281</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>1</ymin>
+			<xmax>594</xmax>
+			<ymax>281</ymax>
 		</bndbox>
 	</object>
 </annotation>

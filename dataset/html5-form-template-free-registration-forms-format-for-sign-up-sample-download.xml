@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
+	<folder>dataset</folder>
 	<filename>html5-form-template-free-registration-forms-format-for-sign-up-sample-download.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\html5-form-template-free-registration-forms-format-for-sign-up-sample-download.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\html5-form-template-free-registration-forms-format-for-sign-up-sample-download.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,18 @@
 			<ymin>315</ymin>
 			<xmax>585</xmax>
 			<ymax>358</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>64</ymin>
+			<xmax>593</xmax>
+			<ymax>475</ymax>
 		</bndbox>
 	</object>
 </annotation>

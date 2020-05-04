@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>formulaire-angular-js-v2.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaire-angular-js-v2.png</path>
+	<folder>dataset</folder>
+	<filename>formulaire-angular-js-v2.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\formulaire-angular-js-v2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>461</ymin>
 			<xmax>855</xmax>
 			<ymax>501</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>251</xmin>
+			<ymin>102</ymin>
+			<xmax>860</xmax>
+			<ymax>514</ymax>
 		</bndbox>
 	</object>
 </annotation>

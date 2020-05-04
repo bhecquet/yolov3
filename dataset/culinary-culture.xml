@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>culinary-culture.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\culinary-culture.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\culinary-culture.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,18 @@
 			<ymin>433</ymin>
 			<xmax>135</xmax>
 			<ymax>468</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>62</ymin>
+			<xmax>412</xmax>
+			<ymax>478</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>psactions_fig1.gif</filename>
-	<path>D:\Dev\yolo\dataset\images\psactions_fig1.gif</path>
+	<path>D:\Dev\yolo\yolov3\dataset\psactions_fig1.gif</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -117,6 +117,30 @@
 			<ymin>477</ymin>
 			<xmax>202</xmax>
 			<ymax>510</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>55</ymin>
+			<xmax>443</xmax>
+			<ymax>471</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>94</xmin>
+			<ymin>99</ymin>
+			<xmax>442</xmax>
+			<ymax>516</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Classy-Contact-Form-a-Flat-Responsive-Widget-Template.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Classy-Contact-Form-a-Flat-Responsive-Widget-Template.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Classy-Contact-Form-a-Flat-Responsive-Widget-Template.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>350</ymin>
 			<xmax>155</xmax>
 			<ymax>366</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>77</xmin>
+			<ymin>1</ymin>
+			<xmax>493</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

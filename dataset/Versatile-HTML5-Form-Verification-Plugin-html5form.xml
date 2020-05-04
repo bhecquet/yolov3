@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Versatile-HTML5-Form-Verification-Plugin-html5form.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Versatile-HTML5-Form-Verification-Plugin-html5form.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Versatile-HTML5-Form-Verification-Plugin-html5form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -141,6 +141,30 @@
 			<ymin>260</ymin>
 			<xmax>637</xmax>
 			<ymax>288</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>316</xmax>
+			<ymax>338</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>331</xmin>
+			<ymin>4</ymin>
+			<xmax>647</xmax>
+			<ymax>342</ymax>
 		</bndbox>
 	</object>
 </annotation>

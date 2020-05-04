@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>angular_material7_form_field.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\angular_material7_form_field.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\angular_material7_form_field.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>343</ymin>
 			<xmax>545</xmax>
 			<ymax>419</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>553</xmax>
+			<ymax>431</ymax>
 		</bndbox>
 	</object>
 </annotation>

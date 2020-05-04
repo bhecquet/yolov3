@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Concept-Material-Login-Form.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Concept-Material-Login-Form.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Concept-Material-Login-Form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,30 @@
 			<ymin>434</ymin>
 			<xmax>940</xmax>
 			<ymax>501</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>112</ymin>
+			<xmax>416</xmax>
+			<ymax>528</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>414</xmin>
+			<ymin>107</ymin>
+			<xmax>948</xmax>
+			<ymax>516</ymax>
 		</bndbox>
 	</object>
 </annotation>

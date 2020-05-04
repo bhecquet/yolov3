@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>grid-in-webform.png</filename>
-	<path>D:\Dev\yolo\dataset\images\grid-in-webform.png</path>
+	<folder>dataset</folder>
+	<filename>grid-in-webform.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\grid-in-webform.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,42 @@
 			<ymin>156</ymin>
 			<xmax>1440</xmax>
 			<ymax>209</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>459</xmin>
+			<ymin>305</ymin>
+			<xmax>1224</xmax>
+			<ymax>704</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1323</xmin>
+			<ymin>1015</ymin>
+			<xmax>1462</xmax>
+			<ymax>1132</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1244</xmin>
+			<ymin>118</ymin>
+			<xmax>1489</xmax>
+			<ymax>254</ymax>
 		</bndbox>
 	</object>
 </annotation>

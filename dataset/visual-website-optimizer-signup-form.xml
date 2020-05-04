@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>visual-website-optimizer-signup-form.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\visual-website-optimizer-signup-form.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\visual-website-optimizer-signup-form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>462</ymin>
 			<xmax>281</xmax>
 			<ymax>491</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>86</ymin>
+			<xmax>416</xmax>
+			<ymax>502</ymax>
 		</bndbox>
 	</object>
 </annotation>

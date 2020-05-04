@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>allgirlarcade-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\allgirlarcade-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\allgirlarcade-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -141,6 +141,30 @@
 			<ymin>763</ymin>
 			<xmax>587</xmax>
 			<ymax>797</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>124</xmin>
+			<ymin>117</ymin>
+			<xmax>540</xmax>
+			<ymax>534</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>189</xmin>
+			<ymin>386</ymin>
+			<xmax>605</xmax>
+			<ymax>802</ymax>
 		</bndbox>
 	</object>
 </annotation>

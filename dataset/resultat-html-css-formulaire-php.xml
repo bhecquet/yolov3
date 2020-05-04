@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>resultat-html-css-formulaire-php.png</filename>
-	<path>D:\Dev\yolo\dataset\images\resultat-html-css-formulaire-php.png</path>
+	<folder>dataset</folder>
+	<filename>resultat-html-css-formulaire-php.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\resultat-html-css-formulaire-php.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>373</ymin>
 			<xmax>106</xmax>
 			<ymax>406</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>87</ymin>
+			<xmax>355</xmax>
+			<ymax>460</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>modern-web-forms-with-5-and-student-registration-form-template-html-css-useful-free-bootstrap.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\modern-web-forms-with-5-and-student-registration-form-template-html-css-useful-free-bootstrap.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\modern-web-forms-with-5-and-student-registration-form-template-html-css-useful-free-bootstrap.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,18 @@
 			<ymin>307</ymin>
 			<xmax>417</xmax>
 			<ymax>350</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>8</xmin>
+			<ymin>1</ymin>
+			<xmax>424</xmax>
+			<ymax>378</ymax>
 		</bndbox>
 	</object>
 </annotation>

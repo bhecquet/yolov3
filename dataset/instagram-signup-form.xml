@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
-	<filename>instagram-signup-form.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\instagram-signup-form.png</path>
+	<folder>dataset</folder>
+	<filename>instagram-signup-form.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\instagram-signup-form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,30 @@
 			<ymin>672</ymin>
 			<xmax>525</xmax>
 			<ymax>729</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>64</xmin>
+			<ymin>240</ymin>
+			<xmax>536</xmax>
+			<ymax>655</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>69</xmin>
+			<ymin>376</ymin>
+			<xmax>541</xmax>
+			<ymax>791</ymax>
 		</bndbox>
 	</object>
 </annotation>

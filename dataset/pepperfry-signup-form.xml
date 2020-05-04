@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>pepperfry-signup-form.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\pepperfry-signup-form.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\pepperfry-signup-form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -129,6 +129,18 @@
 			<ymin>324</ymin>
 			<xmax>619</xmax>
 			<ymax>356</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>329</xmin>
+			<ymin>39</ymin>
+			<xmax>639</xmax>
+			<ymax>386</ymax>
 		</bndbox>
 	</object>
 </annotation>

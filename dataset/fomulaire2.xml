@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>fomulaire2.png</filename>
-	<path>D:\Dev\yolo\dataset\images\fomulaire2.png</path>
+	<folder>dataset</folder>
+	<filename>fomulaire2.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\fomulaire2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -369,6 +369,66 @@
 			<ymin>963</ymin>
 			<xmax>1222</xmax>
 			<ymax>1003</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>155</xmin>
+			<ymin>114</ymin>
+			<xmax>572</xmax>
+			<ymax>530</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>726</xmin>
+			<ymin>119</ymin>
+			<xmax>1142</xmax>
+			<ymax>535</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>731</xmin>
+			<ymin>507</ymin>
+			<xmax>1147</xmax>
+			<ymax>923</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>882</xmin>
+			<ymin>599</ymin>
+			<xmax>1298</xmax>
+			<ymax>1015</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>116</xmin>
+			<ymin>567</ymin>
+			<xmax>563</xmax>
+			<ymax>805</ymax>
 		</bndbox>
 	</object>
 </annotation>

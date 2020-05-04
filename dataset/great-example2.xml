@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
-	<filename>great-example2.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\great-example2.png</path>
+	<folder>dataset</folder>
+	<filename>great-example2.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\great-example2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,18 @@
 			<ymin>289</ymin>
 			<xmax>594</xmax>
 			<ymax>357</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>1</ymin>
+			<xmax>600</xmax>
+			<ymax>366</ymax>
 		</bndbox>
 	</object>
 </annotation>

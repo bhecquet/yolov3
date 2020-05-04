@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>launchlist-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\launchlist-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\launchlist-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,42 @@
 			<ymin>536</ymin>
 			<xmax>344</xmax>
 			<ymax>608</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>69</ymin>
+			<xmax>426</xmax>
+			<ymax>485</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>184</xmin>
+			<ymin>53</ymin>
+			<xmax>552</xmax>
+			<ymax>317</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>384</ymin>
+			<xmax>403</xmax>
+			<ymax>647</ymax>
 		</bndbox>
 	</object>
 </annotation>

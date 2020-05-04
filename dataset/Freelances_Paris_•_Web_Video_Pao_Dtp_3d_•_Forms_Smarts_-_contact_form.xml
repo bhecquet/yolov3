@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
-	<filename>Freelances_Paris_•_Web_Video_Pao_Dtp_3d_•_Forms_Smarts_-_contact_form.png</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\Freelances_Paris_•_Web_Video_Pao_Dtp_3d_•_Forms_Smarts_-_contact_form.png</path>
+	<folder>dataset</folder>
+	<filename>Freelances_Paris_•_Web_Video_Pao_Dtp_3d_•_Forms_Smarts_-_contact_form.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\Freelances_Paris_•_Web_Video_Pao_Dtp_3d_•_Forms_Smarts_-_contact_form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,42 @@
 			<ymin>597</ymin>
 			<xmax>409</xmax>
 			<ymax>644</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>203</xmin>
+			<ymin>134</ymin>
+			<xmax>820</xmax>
+			<ymax>551</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>field</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>336</xmin>
+			<ymin>490</ymin>
+			<xmax>814</xmax>
+			<ymax>535</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>204</xmin>
+			<ymin>264</ymin>
+			<xmax>821</xmax>
+			<ymax>682</ymax>
 		</bndbox>
 	</object>
 </annotation>

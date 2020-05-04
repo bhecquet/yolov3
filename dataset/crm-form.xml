@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>crm-form.png</filename>
-	<path>D:\Dev\yolo\dataset\images\crm-form.png</path>
+	<folder>dataset</folder>
+	<filename>crm-form.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\crm-form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -129,6 +129,30 @@
 			<ymin>492</ymin>
 			<xmax>983</xmax>
 			<ymax>519</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>302</xmin>
+			<ymin>74</ymin>
+			<xmax>718</xmax>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>632</xmin>
+			<ymin>269</ymin>
+			<xmax>997</xmax>
+			<ymax>531</ymax>
 		</bndbox>
 	</object>
 </annotation>

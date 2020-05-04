@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>06-12_webgrapes.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\06-12_webgrapes.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\06-12_webgrapes.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -116,6 +116,30 @@
 			<xmin>217</xmin>
 			<ymin>276</ymin>
 			<xmax>294</xmax>
+			<ymax>300</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>249</xmax>
+			<ymax>300</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>207</xmin>
+			<ymin>1</ymin>
+			<xmax>457</xmax>
 			<ymax>300</ymax>
 		</bndbox>
 	</object>

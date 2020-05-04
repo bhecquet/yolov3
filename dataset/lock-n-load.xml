@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>lock-n-load.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\lock-n-load.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\lock-n-load.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,30 @@
 			<ymin>348</ymin>
 			<xmax>414</xmax>
 			<ymax>382</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>103</ymin>
+			<xmax>330</xmax>
+			<ymax>392</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>237</xmin>
+			<ymin>103</ymin>
+			<xmax>552</xmax>
+			<ymax>392</ymax>
 		</bndbox>
 	</object>
 </annotation>

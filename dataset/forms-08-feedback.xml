@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>forms-08-feedback.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\forms-08-feedback.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\forms-08-feedback.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,66 @@
 			<ymin>1036</ymin>
 			<xmax>1621</xmax>
 			<ymax>1344</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>360</xmin>
+			<ymin>130</ymin>
+			<xmax>949</xmax>
+			<ymax>566</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1047</xmin>
+			<ymin>123</ymin>
+			<xmax>1636</xmax>
+			<ymax>559</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1047</xmin>
+			<ymin>545</ymin>
+			<xmax>1636</xmax>
+			<ymax>981</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>351</xmin>
+			<ymin>583</ymin>
+			<xmax>1004</xmax>
+			<ymax>1166</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1023</xmin>
+			<ymin>800</ymin>
+			<xmax>1676</xmax>
+			<ymax>1383</ymax>
 		</bndbox>
 	</object>
 </annotation>

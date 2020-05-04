@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Registration-Form-navinwebworld.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Registration-Form-navinwebworld.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Registration-Form-navinwebworld.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -165,6 +165,30 @@
 			<ymin>417</ymin>
 			<xmax>683</xmax>
 			<ymax>457</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>54</ymin>
+			<xmax>416</xmax>
+			<ymax>470</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>296</xmin>
+			<ymin>58</ymin>
+			<xmax>712</xmax>
+			<ymax>474</ymax>
 		</bndbox>
 	</object>
 </annotation>

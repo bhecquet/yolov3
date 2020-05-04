@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>modern-login-form_1017-7975.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\modern-login-form_1017-7975.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\modern-login-form_1017-7975.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>225</ymin>
 			<xmax>192</xmax>
 			<ymax>246</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>380</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>tumblr_o1bwm6ie2z1ul8y65o1_1280-1.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\tumblr_o1bwm6ie2z1ul8y65o1_1280-1.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\tumblr_o1bwm6ie2z1ul8y65o1_1280-1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,30 @@
 			<ymin>806</ymin>
 			<xmax>489</xmax>
 			<ymax>845</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>339</xmin>
+			<ymin>158</ymin>
+			<xmax>883</xmax>
+			<ymax>568</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>340</xmin>
+			<ymin>444</ymin>
+			<xmax>884</xmax>
+			<ymax>854</ymax>
 		</bndbox>
 	</object>
 </annotation>

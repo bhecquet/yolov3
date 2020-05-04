@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Walgreens registration forms comparison.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Walgreens registration forms comparison.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Walgreens registration forms comparison.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -453,6 +453,54 @@
 			<ymin>544</ymin>
 			<xmax>648</xmax>
 			<ymax>561</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>302</xmax>
+			<ymax>292</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>252</ymin>
+			<xmax>311</xmax>
+			<ymax>544</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>356</xmin>
+			<ymin>22</ymin>
+			<xmax>658</xmax>
+			<ymax>314</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>375</xmin>
+			<ymin>296</ymin>
+			<xmax>677</xmax>
+			<ymax>589</ymax>
 		</bndbox>
 	</object>
 </annotation>

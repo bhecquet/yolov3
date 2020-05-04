@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>firebase-crud-create-7.png</filename>
-	<path>D:\Dev\yolo\dataset\images\firebase-crud-create-7.png</path>
+	<folder>dataset</folder>
+	<filename>firebase-crud-create-7.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\firebase-crud-create-7.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,30 @@
 			<ymin>304</ymin>
 			<xmax>283</xmax>
 			<ymax>343</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>354</xmin>
+			<ymin>69</ymin>
+			<xmax>770</xmax>
+			<ymax>485</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>88</xmin>
+			<ymin>70</ymin>
+			<xmax>504</xmax>
+			<ymax>486</ymax>
 		</bndbox>
 	</object>
 </annotation>

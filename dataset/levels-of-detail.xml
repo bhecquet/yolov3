@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>levels-of-detail.png</filename>
-	<path>D:\Dev\yolo\dataset\images\levels-of-detail.png</path>
+	<folder>dataset</folder>
+	<filename>levels-of-detail.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\levels-of-detail.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -129,6 +129,66 @@
 			<ymin>1842</ymin>
 			<xmax>597</xmax>
 			<ymax>1922</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>38</xmin>
+			<ymin>838</ymin>
+			<xmax>629</xmax>
+			<ymax>1299</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>34</xmin>
+			<ymin>1314</ymin>
+			<xmax>625</xmax>
+			<ymax>1775</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>36</xmin>
+			<ymin>1479</ymin>
+			<xmax>627</xmax>
+			<ymax>1941</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>584</xmin>
+			<ymin>1079</ymin>
+			<xmax>1175</xmax>
+			<ymax>1541</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>586</xmin>
+			<ymin>1347</ymin>
+			<xmax>1177</xmax>
+			<ymax>1809</ymax>
 		</bndbox>
 	</object>
 </annotation>

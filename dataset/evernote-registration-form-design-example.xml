@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>evernote-registration-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\evernote-registration-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\evernote-registration-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,18 @@
 			<ymin>457</ymin>
 			<xmax>450</xmax>
 			<ymax>492</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>217</xmin>
+			<ymin>97</ymin>
+			<xmax>633</xmax>
+			<ymax>514</ymax>
 		</bndbox>
 	</object>
 </annotation>

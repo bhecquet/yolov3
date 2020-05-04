@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>iheartradio-registration-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\iheartradio-registration-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\iheartradio-registration-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -129,6 +129,30 @@
 			<ymin>537</ymin>
 			<xmax>509</xmax>
 			<ymax>568</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>203</xmin>
+			<ymin>63</ymin>
+			<xmax>619</xmax>
+			<ymax>479</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>210</xmin>
+			<ymin>177</ymin>
+			<xmax>626</xmax>
+			<ymax>593</ymax>
 		</bndbox>
 	</object>
 </annotation>

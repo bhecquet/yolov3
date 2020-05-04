@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
+	<folder>dataset</folder>
 	<filename>tumblr_o534ljxuYj1ul8y65o1_1280-1.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\tumblr_o534ljxuYj1ul8y65o1_1280-1.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\tumblr_o534ljxuYj1ul8y65o1_1280-1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>572</ymin>
 			<xmax>321</xmax>
 			<ymax>679</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>72</xmin>
+			<ymin>289</ymin>
+			<xmax>931</xmax>
+			<ymax>689</ymax>
 		</bndbox>
 	</object>
 </annotation>

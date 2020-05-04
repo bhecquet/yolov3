@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>a8f8dc9b7314e9f7d3e10b0933243c76.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\a8f8dc9b7314e9f7d3e10b0933243c76.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\a8f8dc9b7314e9f7d3e10b0933243c76.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,30 @@
 			<ymin>616</ymin>
 			<xmax>495</xmax>
 			<ymax>643</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>59</xmin>
+			<ymin>12</ymin>
+			<xmax>510</xmax>
+			<ymax>424</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>52</xmin>
+			<ymin>246</ymin>
+			<xmax>503</xmax>
+			<ymax>658</ymax>
 		</bndbox>
 	</object>
 </annotation>

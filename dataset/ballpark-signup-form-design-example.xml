@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>ballpark-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\ballpark-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\ballpark-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,6 +93,18 @@
 			<ymin>651</ymin>
 			<xmax>185</xmax>
 			<ymax>693</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>78</xmin>
+			<ymin>71</ymin>
+			<xmax>632</xmax>
+			<ymax>486</ymax>
 		</bndbox>
 	</object>
 </annotation>

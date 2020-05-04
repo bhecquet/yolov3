@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>forms4_html.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\forms4_html.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\forms4_html.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -201,6 +201,18 @@
 			<ymin>329</ymin>
 			<xmax>123</xmax>
 			<ymax>346</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>51</ymin>
+			<xmax>299</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

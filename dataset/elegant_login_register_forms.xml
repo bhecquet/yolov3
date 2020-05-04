@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>elegant_login_register_forms.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\elegant_login_register_forms.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\elegant_login_register_forms.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>450</ymin>
 			<xmax>494</xmax>
 			<ymax>486</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>198</xmin>
+			<ymin>110</ymin>
+			<xmax>614</xmax>
+			<ymax>526</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>Pipedrive+Form+Builder.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\Pipedrive+Form+Builder.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\Pipedrive+Form+Builder.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -57,6 +57,18 @@
 			<ymin>297</ymin>
 			<xmax>474</xmax>
 			<ymax>322</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>75</ymin>
+			<xmax>479</xmax>
+			<ymax>328</ymax>
 		</bndbox>
 	</object>
 </annotation>

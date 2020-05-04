@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
-	<filename>gated-content-web-form.png</filename>
-	<path>D:\Dev\yolo\dataset\images\gated-content-web-form.png</path>
+	<folder>dataset</folder>
+	<filename>gated-content-web-form.jpg</filename>
+	<path>D:\Dev\yolo\yolov3\dataset\gated-content-web-form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,18 @@
 			<ymin>502</ymin>
 			<xmax>923</xmax>
 			<ymax>546</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>435</xmin>
+			<ymin>154</ymin>
+			<xmax>929</xmax>
+			<ymax>552</ymax>
 		</bndbox>
 	</object>
 </annotation>

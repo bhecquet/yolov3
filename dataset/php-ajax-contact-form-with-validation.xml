@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>php-ajax-contact-form-with-validation.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\php-ajax-contact-form-with-validation.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\php-ajax-contact-form-with-validation.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,6 +69,30 @@
 			<ymin>460</ymin>
 			<xmax>572</xmax>
 			<ymax>498</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>60</ymin>
+			<xmax>577</xmax>
+			<ymax>280</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>286</ymin>
+			<xmax>575</xmax>
+			<ymax>506</ymax>
 		</bndbox>
 	</object>
 </annotation>

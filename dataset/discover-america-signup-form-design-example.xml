@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>discover-america-signup-form-design-example.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\discover-america-signup-form-design-example.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\discover-america-signup-form-design-example.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>488</ymin>
 			<xmax>73</xmax>
 			<ymax>508</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>6</ymin>
+			<xmax>451</xmax>
+			<ymax>422</ymax>
 		</bndbox>
 	</object>
 </annotation>

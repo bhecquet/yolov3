@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>ingredient-form.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\ingredient-form.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\ingredient-form.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -177,6 +177,54 @@
 			<ymin>1152</ymin>
 			<xmax>293</xmax>
 			<ymax>1238</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>2073</xmax>
+			<ymax>592</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>662</ymin>
+			<xmax>725</xmax>
+			<ymax>1248</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>686</xmin>
+			<ymin>602</ymin>
+			<xmax>1412</xmax>
+			<ymax>1187</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>684</xmin>
+			<ymin>600</ymin>
+			<xmax>1410</xmax>
+			<ymax>1185</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>login-form-template-create-account-elements-web-forms-login-form-ui-design-template-registration-form-website-145090401.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\login-form-template-create-account-elements-web-forms-login-form-ui-design-template-registration-form-website-145090401.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\login-form-template-create-account-elements-web-forms-login-form-ui-design-template-registration-form-website-145090401.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>1136</ymin>
 			<xmax>1203</xmax>
 			<ymax>1236</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>281</xmin>
+			<ymin>621</ymin>
+			<xmax>1214</xmax>
+			<ymax>1260</ymax>
 		</bndbox>
 	</object>
 </annotation>

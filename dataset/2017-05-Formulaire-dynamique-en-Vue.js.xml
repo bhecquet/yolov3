@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>2017-05-Formulaire-dynamique-en-Vue.js.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\2017-05-Formulaire-dynamique-en-Vue.js.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\2017-05-Formulaire-dynamique-en-Vue.js.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -105,6 +105,18 @@
 			<ymin>927</ymin>
 			<xmax>202</xmax>
 			<ymax>999</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>186</xmin>
+			<ymin>60</ymin>
+			<xmax>1494</xmax>
+			<ymax>949</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>generateur-balise-date.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\generateur-balise-date.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\generateur-balise-date.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -129,6 +129,30 @@
 			<ymin>956</ymin>
 			<xmax>1165</xmax>
 			<ymax>1018</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>25</xmin>
+			<ymin>134</ymin>
+			<xmax>737</xmax>
+			<ymax>612</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>852</xmin>
+			<ymin>849</ymin>
+			<xmax>1183</xmax>
+			<ymax>1030</ymax>
 		</bndbox>
 	</object>
 </annotation>

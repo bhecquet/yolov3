@@ -1,7 +1,7 @@
 <annotation>
-	<folder>formulaires</folder>
+	<folder>dataset</folder>
 	<filename>1c7f6df50dcda8173d5e1c42e3f88d74.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\formulaires\1c7f6df50dcda8173d5e1c42e3f88d74.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\1c7f6df50dcda8173d5e1c42e3f88d74.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>306</ymin>
 			<xmax>164</xmax>
 			<ymax>348</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>214</xmax>
+			<ymax>380</ymax>
 		</bndbox>
 	</object>
 </annotation>

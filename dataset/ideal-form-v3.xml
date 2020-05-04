@@ -1,7 +1,7 @@
 <annotation>
-	<folder>images</folder>
+	<folder>dataset</folder>
 	<filename>ideal-form-v3.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\ideal-form-v3.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\ideal-form-v3.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -117,6 +117,18 @@
 			<ymin>367</ymin>
 			<xmax>358</xmax>
 			<ymax>391</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>154</xmin>
+			<ymin>1</ymin>
+			<xmax>570</xmax>
+			<ymax>400</ymax>
 		</bndbox>
 	</object>
 </annotation>
