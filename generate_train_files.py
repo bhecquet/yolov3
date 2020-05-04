@@ -5,7 +5,7 @@ dataset_path = local_path + 'dataset_generated'
 
 # Percentage of images to be used for the test set
 percentage_test = 10;
-max_number_of_files = 1000
+max_number_of_files = 2000
 
 # Create and/or truncate train.txt and test.txt
 file_train = open('web-generated-train.txt', 'w')  
@@ -19,9 +19,9 @@ for loop, pathAndFilename in enumerate(glob.iglob(os.path.join(dataset_path, "*.
 
     if counter == index_test+1:
         counter = 1
-        file_test.write("dataset_generated/" + title + '.jpg' + "\n")
+        file_test.write("dataset_generated_small/" + title + '.jpg' + "\n")
     else:
-        file_train.write("dataset_generated/" + title + '.jpg' + "\n")
+        file_train.write("dataset_generated_small/" + title + '.jpg' + "\n")
         counter = counter + 1
         
     if loop > max_number_of_files:

@@ -232,11 +232,11 @@ if __name__ == '__main__':
     
     min_width = 300
     max_width = 416
-    min_rows = 2
-    max_rows = 2
+    min_rows = 3
+    max_rows = 4
     min_field_height = 16
-    max_field_height = 30 # may be 40 when field width is greater
-    number_of_images = 1000
+    max_field_height = 30 # may be 40 when field width is greater, due to font size
+    number_of_images = 2000
     
     
     os.makedirs('out', exist_ok=True)
