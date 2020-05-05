@@ -2308,6 +2308,7 @@ dataset_extracted/hotgloo-signup-form-design-example--1.jpg
 dataset_extracted/HPRmN--0.jpg
 dataset_extracted/HPRmN--1.jpg
 dataset_extracted/HTML-CSS-Contact-Us-Form--0.jpg
+dataset_extracted/html-css-form-design--0.jpg
 dataset_extracted/html-form-1--0.jpg
 dataset_extracted/HTML-Forms-From-Basics-to-Style-Layouts-Figure5--0.jpg
 dataset_extracted/html5-contact-form--0.jpg
