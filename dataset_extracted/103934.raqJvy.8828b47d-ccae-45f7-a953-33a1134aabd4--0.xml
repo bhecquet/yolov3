@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>103934.raqJvy.8828b47d-ccae-45f7-a953-33a1134aabd4--0.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/103934.raqJvy.8828b47d-ccae-45f7-a953-33a1134aabd4--0.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>416</width>
+        <height>416</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>button</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>351</ymin>
+            <xmax>412</xmax>
+            <ymax>389</ymax>
+        </bndbox>
+    </object></annotation>

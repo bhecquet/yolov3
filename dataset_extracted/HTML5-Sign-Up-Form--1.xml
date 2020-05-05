@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>HTML5-Sign-Up-Form--1.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/HTML5-Sign-Up-Form--1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>416</width>
+        <height>417</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>26</xmin>
+            <ymin>194</ymin>
+            <xmax>382</xmax>
+            <ymax>292</ymax>
+        </bndbox>
+    </object></annotation>

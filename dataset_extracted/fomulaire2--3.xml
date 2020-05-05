@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><annotation>
+    <folder>formulaires</folder>
+    <filename>fomulaire2--3.jpg</filename>
+    <path>D:\Dev\yolo\yolov3\dataset_extracted/fomulaire2--3.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>416</width>
+        <height>416</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>button</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>45</xmin>
+            <ymin>364</ymin>
+            <xmax>340</xmax>
+            <ymax>404</ymax>
+        </bndbox>
+    </object></annotation>
