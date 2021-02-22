@@ -155,4 +155,28 @@
 			<ymax>356</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>522</xmin>
+			<ymin>309</ymin>
+			<xmax>591</xmax>
+			<ymax>344</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>607</xmin>
+			<ymin>308</ymin>
+			<xmax>686</xmax>
+			<ymax>344</ymax>
+		</bndbox>
+	</object>
 </annotation>
