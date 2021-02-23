@@ -197,10 +197,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1068</xmin>
+			<xmin>1065</xmin>
 			<ymin>600</ymin>
-			<xmax>1092</xmax>
-			<ymax>625</ymax>
+			<xmax>1085</xmax>
+			<ymax>622</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -211,8 +211,8 @@
 		<bndbox>
 			<xmin>1165</xmin>
 			<ymin>600</ymin>
-			<xmax>1188</xmax>
-			<ymax>624</ymax>
+			<xmax>1182</xmax>
+			<ymax>622</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -317,10 +317,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>959</xmin>
-			<ymin>241</ymin>
-			<xmax>1467</xmax>
-			<ymax>661</ymax>
+			<xmin>951</xmin>
+			<ymin>271</ymin>
+			<xmax>1459</xmax>
+			<ymax>691</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -369,6 +369,114 @@
 			<ymin>843</ymin>
 			<xmax>946</xmax>
 			<ymax>1263</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>field_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>462</xmin>
+			<ymin>561</ymin>
+			<xmax>689</xmax>
+			<ymax>635</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>959</xmin>
+			<ymin>598</ymin>
+			<xmax>1026</xmax>
+			<ymax>626</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1061</xmin>
+			<ymin>597</ymin>
+			<xmax>1128</xmax>
+			<ymax>626</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1161</xmin>
+			<ymin>596</ymin>
+			<xmax>1238</xmax>
+			<ymax>626</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>456</xmin>
+			<ymin>978</ymin>
+			<xmax>514</xmax>
+			<ymax>1009</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>560</xmin>
+			<ymin>978</ymin>
+			<xmax>610</xmax>
+			<ymax>1009</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>962</xmin>
+			<ymin>1207</ymin>
+			<xmax>1017</xmax>
+			<ymax>1239</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1064</xmin>
+			<ymin>1208</ymin>
+			<xmax>1111</xmax>
+			<ymax>1238</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>960</xmin>
+			<ymin>842</ymin>
+			<xmax>1462</xmax>
+			<ymax>1262</ymax>
 		</bndbox>
 	</object>
 </annotation>

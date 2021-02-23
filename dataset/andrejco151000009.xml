@@ -1,7 +1,7 @@
-<?xml version="1.0" ?><annotation>
-	<folder>images</folder>
+<annotation>
+	<folder>dataset</folder>
 	<filename>andrejco151000009.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\andrejco151000009.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\andrejco151000009.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -59,15 +59,28 @@
 			<ymax>274</ymax>
 		</bndbox>
 	</object>
-<object>
-        <name>_form_</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>0</xmin>
-            <ymin>0</ymin>
-            <xmax>416</xmax>
-            <ymax>416</ymax>
-        </bndbox>
-    </object></annotation>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>416</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>checkbox_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>123</xmin>
+			<ymin>202</ymin>
+			<xmax>301</xmax>
+			<ymax>224</ymax>
+		</bndbox>
+	</object>
+</annotation>
