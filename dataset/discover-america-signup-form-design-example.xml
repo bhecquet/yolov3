@@ -90,9 +90,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>45</xmin>
-			<ymin>430</ymin>
-			<xmax>74</xmax>
-			<ymax>454</ymax>
+			<ymin>433</ymin>
+			<xmax>65</xmax>
+			<ymax>456</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -103,7 +103,7 @@
 		<bndbox>
 			<xmin>45</xmin>
 			<ymin>488</ymin>
-			<xmax>73</xmax>
+			<xmax>67</xmax>
 			<ymax>508</ymax>
 		</bndbox>
 	</object>
@@ -117,6 +117,42 @@
 			<ymin>6</ymin>
 			<xmax>451</xmax>
 			<ymax>422</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>checkbox_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>42</xmin>
+			<ymin>432</ymin>
+			<xmax>325</xmax>
+			<ymax>467</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>checkbox_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>486</ymin>
+			<xmax>225</xmax>
+			<ymax>517</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>270</ymin>
+			<xmax>445</xmax>
+			<ymax>554</ymax>
 		</bndbox>
 	</object>
 </annotation>

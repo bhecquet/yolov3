@@ -1,7 +1,7 @@
-<?xml version="1.0" ?><annotation>
-	<folder>images</folder>
+<annotation>
+	<folder>dataset</folder>
 	<filename>form-ui-designs-2016-25.jpg</filename>
-	<path>D:\Dev\yolo\dataset\images\form-ui-designs-2016-25.jpg</path>
+	<path>D:\Dev\yolo\yolov3\dataset\form-ui-designs-2016-25.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -95,15 +95,52 @@
 			<ymax>363</ymax>
 		</bndbox>
 	</object>
-<object>
-        <name>_form_</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>0</xmin>
-            <ymin>0</ymin>
-            <xmax>416</xmax>
-            <ymax>416</ymax>
-        </bndbox>
-    </object></annotation>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>416</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>297</ymin>
+			<xmax>225</xmax>
+			<ymax>313</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>242</xmin>
+			<ymin>297</ymin>
+			<xmax>278</xmax>
+			<ymax>314</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>287</xmin>
+			<ymin>297</ymin>
+			<xmax>344</xmax>
+			<ymax>314</ymax>
+		</bndbox>
+	</object>
+</annotation>
