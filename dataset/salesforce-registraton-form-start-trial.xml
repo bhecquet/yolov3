@@ -155,4 +155,16 @@
 			<ymax>507</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>checkbox_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>485</xmin>
+			<ymin>420</ymin>
+			<xmax>674</xmax>
+			<ymax>438</ymax>
+		</bndbox>
+	</object>
 </annotation>

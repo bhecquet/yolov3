@@ -19,8 +19,8 @@
 		<bndbox>
 			<xmin>41</xmin>
 			<ymin>86</ymin>
-			<xmax>57</xmax>
-			<ymax>99</ymax>
+			<xmax>54</xmax>
+			<ymax>98</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -31,8 +31,8 @@
 		<bndbox>
 			<xmin>191</xmin>
 			<ymin>84</ymin>
-			<xmax>206</xmax>
-			<ymax>101</ymax>
+			<xmax>202</xmax>
+			<ymax>98</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -197,10 +197,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>21</xmin>
-			<ymin>62</ymin>
-			<xmax>623</xmax>
-			<ymax>317</ymax>
+			<xmin>23</xmin>
+			<ymin>68</ymin>
+			<xmax>625</xmax>
+			<ymax>323</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -225,6 +225,30 @@
 			<ymin>571</ymin>
 			<xmax>619</xmax>
 			<ymax>826</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>38</xmin>
+			<ymin>84</ymin>
+			<xmax>160</xmax>
+			<ymax>100</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>radio_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>188</xmin>
+			<ymin>81</ymin>
+			<xmax>320</xmax>
+			<ymax>99</ymax>
 		</bndbox>
 	</object>
 </annotation>
