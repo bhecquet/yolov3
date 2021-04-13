@@ -56,6 +56,17 @@
             <ymax>169</ymax>
         </bndbox>
     </object><object>
+        <name>checkbox</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>95</xmin>
+            <ymin>211</ymin>
+            <xmax>103</xmax>
+            <ymax>220</ymax>
+        </bndbox>
+    </object><object>
         <name>button</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
@@ -65,5 +76,60 @@
             <ymin>268</ymin>
             <xmax>83</xmax>
             <ymax>283</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>41</xmin>
+            <ymin>56</ymin>
+            <xmax>276</xmax>
+            <ymax>74</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>42</xmin>
+            <ymin>75</ymin>
+            <xmax>277</xmax>
+            <ymax>93</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>47</xmin>
+            <ymin>102</ymin>
+            <xmax>277</xmax>
+            <ymax>121</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>22</xmin>
+            <ymin>151</ymin>
+            <xmax>277</xmax>
+            <ymax>171</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>93</xmin>
+            <ymin>209</ymin>
+            <xmax>177</xmax>
+            <ymax>222</ymax>
         </bndbox>
     </object></annotation>

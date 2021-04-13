@@ -2,12 +2,13 @@
 # pycocotools requires numpy 1.17 https://github.com/cocodataset/cocoapi/issues/356
 numpy == 1.17
 opencv-python >= 4.1
-torch >= 1.5
+#torch >= 1.5
 matplotlib
-pycocotools
+#pycocotools  # on windows, should use pycocotools-windows
 tqdm
 pillow
 tensorboard >= 1.14
+colormath
 
 # Nvidia Apex (optional) for mixed precision training --------------------------
 # git clone https://github.com/NVIDIA/apex && cd apex && pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" . --user && cd .. && rm -rf apex

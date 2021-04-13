@@ -22,4 +22,15 @@
             <xmax>574</xmax>
             <ymax>357</ymax>
         </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>21</xmin>
+            <ymin>19</ymin>
+            <xmax>583</xmax>
+            <ymax>356</ymax>
+        </bndbox>
     </object></annotation>

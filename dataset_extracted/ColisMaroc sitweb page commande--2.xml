@@ -77,4 +77,26 @@
             <xmax>391</xmax>
             <ymax>312</ymax>
         </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>158</xmin>
+            <ymin>346</ymin>
+            <xmax>257</xmax>
+            <ymax>379</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>292</xmin>
+            <ymin>345</ymin>
+            <xmax>391</xmax>
+            <ymax>378</ymax>
+        </bndbox>
     </object></annotation>

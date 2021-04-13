@@ -77,4 +77,15 @@
             <xmax>372</xmax>
             <ymax>312</ymax>
         </bndbox>
+    </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>87</xmin>
+            <ymin>328</ymin>
+            <xmax>103</xmax>
+            <ymax>345</ymax>
+        </bndbox>
     </object></annotation>

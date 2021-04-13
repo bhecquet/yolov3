@@ -17,6 +17,17 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
+            <xmin>13</xmin>
+            <ymin>94</ymin>
+            <xmax>70</xmax>
+            <ymax>117</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
             <xmin>116</xmin>
             <ymin>93</ymin>
             <xmax>262</xmax>
@@ -34,6 +45,39 @@
             <ymax>161</ymax>
         </bndbox>
     </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>60</xmin>
+            <ymin>182</ymin>
+            <xmax>76</xmax>
+            <ymax>197</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>150</xmin>
+            <ymin>182</ymin>
+            <xmax>164</xmax>
+            <ymax>197</ymax>
+        </bndbox>
+    </object><object>
+        <name>checkbox</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>16</xmin>
+            <ymin>268</ymin>
+            <xmax>32</xmax>
+            <ymax>284</ymax>
+        </bndbox>
+    </object><object>
         <name>button</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
@@ -43,5 +87,60 @@
             <ymin>308</ymin>
             <xmax>55</xmax>
             <ymax>331</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>73</xmin>
+            <ymin>92</ymin>
+            <xmax>264</xmax>
+            <ymax>119</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>14</xmin>
+            <ymin>135</ymin>
+            <xmax>222</xmax>
+            <ymax>162</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>58</xmin>
+            <ymin>180</ymin>
+            <xmax>141</xmax>
+            <ymax>198</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>148</xmin>
+            <ymin>181</ymin>
+            <xmax>225</xmax>
+            <ymax>198</ymax>
+        </bndbox>
+    </object><object>
+        <name>checkbox_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>14</xmin>
+            <ymin>266</ymin>
+            <xmax>152</xmax>
+            <ymax>285</ymax>
         </bndbox>
     </object></annotation>

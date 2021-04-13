@@ -12,7 +12,7 @@
     </size>
     <segmented>0</segmented>
     <object>
-        <name>field</name>
+        <name>field_line</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
         <difficult>0</difficult>
@@ -23,7 +23,7 @@
             <ymax>90</ymax>
         </bndbox>
     </object><object>
-        <name>field</name>
+        <name>field_line</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
         <difficult>0</difficult>
@@ -34,7 +34,7 @@
             <ymax>147</ymax>
         </bndbox>
     </object><object>
-        <name>field</name>
+        <name>field_line</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
         <difficult>0</difficult>

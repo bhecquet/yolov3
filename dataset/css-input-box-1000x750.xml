@@ -96,7 +96,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select_line</name>
+		<name>field_line</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -137,10 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>391</xmin>
-			<ymin>171</ymin>
-			<xmax>807</xmax>
-			<ymax>588</ymax>
+			<xmin>268</xmin>
+			<ymin>169</ymin>
+			<xmax>746</xmax>
+			<ymax>585</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -165,6 +165,18 @@
 			<ymin>301</ymin>
 			<xmax>693</xmax>
 			<ymax>327</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>field_line_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>279</xmin>
+			<ymin>445</ymin>
+			<xmax>736</xmax>
+			<ymax>502</ymax>
 		</bndbox>
 	</object>
 </annotation>

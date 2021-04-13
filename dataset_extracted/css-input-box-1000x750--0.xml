@@ -12,6 +12,50 @@
     </size>
     <segmented>0</segmented>
     <object>
+        <name>field_line</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>98</xmin>
+            <ymin>13</ymin>
+            <xmax>324</xmax>
+            <ymax>45</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_line</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>96</xmin>
+            <ymin>96</ymin>
+            <xmax>299</xmax>
+            <ymax>130</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>341</xmin>
+            <ymin>133</ymin>
+            <xmax>361</xmax>
+            <ymax>155</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_line</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>97</xmin>
+            <ymin>184</ymin>
+            <xmax>324</xmax>
+            <ymax>215</ymax>
+        </bndbox>
+    </object><object>
         <name>button</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
@@ -21,5 +65,16 @@
             <ymin>365</ymin>
             <xmax>238</xmax>
             <ymax>413</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>338</xmin>
+            <ymin>129</ymin>
+            <xmax>402</xmax>
+            <ymax>158</ymax>
         </bndbox>
     </object></annotation>

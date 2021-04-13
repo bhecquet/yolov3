@@ -34,6 +34,17 @@
             <ymax>178</ymax>
         </bndbox>
     </object><object>
+        <name>checkbox</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>67</xmin>
+            <ymin>186</ymin>
+            <xmax>78</xmax>
+            <ymax>198</ymax>
+        </bndbox>
+    </object><object>
         <name>button</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
@@ -43,5 +54,16 @@
             <ymin>205</ymin>
             <xmax>270</xmax>
             <ymax>236</ymax>
+        </bndbox>
+    </object><object>
+        <name>checkbox_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>65</xmin>
+            <ymin>184</ymin>
+            <xmax>136</xmax>
+            <ymax>199</ymax>
         </bndbox>
     </object></annotation>

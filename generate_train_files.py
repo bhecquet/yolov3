@@ -1,7 +1,7 @@
 import glob, os
 
 local_path = os.path.dirname(os.path.abspath(__file__)) + '/'
-dataset_path = local_path + 'dataset_generated'
+dataset_path = local_path + 'dataset_extracted'
 
 # Percentage of images to be used for the test set
 percentage_test = 10;
@@ -19,9 +19,9 @@ for loop, pathAndFilename in enumerate(glob.iglob(os.path.join(dataset_path, "*.
 
     if counter == index_test+1:
         counter = 1
-        file_test.write("dataset_generated_small/" + title + '.jpg' + "\n")
+        file_test.write("dataset_extracted/" + title + '.jpg' + "\n")
     else:
-        file_train.write("dataset_generated_small/" + title + '.jpg' + "\n")
+        file_train.write("dataset_extracted/" + title + '.jpg' + "\n")
         counter = counter + 1
         
     if loop > max_number_of_files:

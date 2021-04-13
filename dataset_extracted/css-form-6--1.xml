@@ -45,6 +45,17 @@
             <ymax>155</ymax>
         </bndbox>
     </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>35</xmin>
+            <ymin>161</ymin>
+            <xmax>221</xmax>
+            <ymax>187</ymax>
+        </bndbox>
+    </object><object>
         <name>button</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>

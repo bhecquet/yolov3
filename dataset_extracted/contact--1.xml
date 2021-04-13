@@ -12,6 +12,17 @@
     </size>
     <segmented>0</segmented>
     <object>
+        <name>field_line</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>21</xmin>
+            <ymin>76</ymin>
+            <xmax>546</xmax>
+            <ymax>136</ymax>
+        </bndbox>
+    </object><object>
         <name>field</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
@@ -21,5 +32,16 @@
             <ymin>150</ymin>
             <xmax>547</xmax>
             <ymax>303</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>293</xmin>
+            <ymin>8</ymin>
+            <xmax>549</xmax>
+            <ymax>41</ymax>
         </bndbox>
     </object></annotation>

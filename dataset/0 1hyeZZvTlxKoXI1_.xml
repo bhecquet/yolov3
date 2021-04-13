@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -67,8 +67,8 @@
 		<bndbox>
 			<xmin>412</xmin>
 			<ymin>259</ymin>
-			<xmax>489</xmax>
-			<ymax>294</ymax>
+			<xmax>467</xmax>
+			<ymax>292</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -134,25 +134,25 @@
 	<object>
 		<name>_form_</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>92</xmin>
-			<ymin>65</ymin>
-			<xmax>508</xmax>
-			<ymax>481</ymax>
+			<xmin>93</xmin>
+			<ymin>45</ymin>
+			<xmax>509</xmax>
+			<ymax>461</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>_form_</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>409</xmin>
-			<ymin>198</ymin>
-			<xmax>810</xmax>
-			<ymax>356</ymax>
+			<xmin>402</xmin>
+			<ymin>190</ymin>
+			<xmax>803</xmax>
+			<ymax>348</ymax>
 		</bndbox>
 	</object>
 	<object>

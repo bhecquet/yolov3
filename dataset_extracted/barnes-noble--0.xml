@@ -17,10 +17,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>7</xmin>
-            <ymin>113</ymin>
-            <xmax>315</xmax>
-            <ymax>161</ymax>
+            <xmin>15</xmin>
+            <ymin>83</ymin>
+            <xmax>323</xmax>
+            <ymax>131</ymax>
         </bndbox>
     </object><object>
         <name>field</name>
@@ -28,10 +28,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>10</xmin>
-            <ymin>180</ymin>
-            <xmax>232</xmax>
-            <ymax>229</ymax>
+            <xmin>18</xmin>
+            <ymin>150</ymin>
+            <xmax>240</xmax>
+            <ymax>199</ymax>
         </bndbox>
     </object><object>
         <name>field</name>
@@ -39,10 +39,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>175</xmin>
-            <ymin>248</ymin>
-            <xmax>315</xmax>
-            <ymax>298</ymax>
+            <xmin>183</xmin>
+            <ymin>218</ymin>
+            <xmax>323</xmax>
+            <ymax>268</ymax>
         </bndbox>
     </object><object>
         <name>field</name>
@@ -50,9 +50,97 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>344</xmin>
-            <ymin>248</ymin>
-            <xmax>480</xmax>
-            <ymax>298</ymax>
+            <xmin>352</xmin>
+            <ymin>218</ymin>
+            <xmax>488</xmax>
+            <ymax>268</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>352</xmin>
+            <ymin>81</ymin>
+            <xmax>489</xmax>
+            <ymax>131</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>17</xmin>
+            <ymin>219</ymin>
+            <xmax>155</xmax>
+            <ymax>267</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>14</xmin>
+            <ymin>331</ymin>
+            <xmax>33</xmax>
+            <ymax>353</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>114</xmin>
+            <ymin>329</ymin>
+            <xmax>134</xmax>
+            <ymax>351</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>214</xmin>
+            <ymin>329</ymin>
+            <xmax>231</xmax>
+            <ymax>351</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>8</xmin>
+            <ymin>327</ymin>
+            <xmax>75</xmax>
+            <ymax>355</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>110</xmin>
+            <ymin>326</ymin>
+            <xmax>177</xmax>
+            <ymax>355</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>210</xmin>
+            <ymin>325</ymin>
+            <xmax>287</xmax>
+            <ymax>355</ymax>
         </bndbox>
     </object></annotation>

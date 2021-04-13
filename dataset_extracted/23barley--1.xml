@@ -12,6 +12,17 @@
     </size>
     <segmented>0</segmented>
     <object>
+        <name>checkbox</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>35</xmin>
+            <ymin>97</ymin>
+            <xmax>91</xmax>
+            <ymax>108</ymax>
+        </bndbox>
+    </object><object>
         <name>button</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>

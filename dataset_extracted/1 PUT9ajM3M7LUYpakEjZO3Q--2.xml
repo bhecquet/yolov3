@@ -6,20 +6,53 @@
         <database>Unknown</database>
     </source>
     <size>
-        <width>416</width>
+        <width>339</width>
         <height>326</height>
         <depth>3</depth>
     </size>
     <segmented>0</segmented>
     <object>
+        <name>field_line</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>12</ymin>
+            <xmax>269</xmax>
+            <ymax>62</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_line</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>142</ymin>
+            <xmax>269</xmax>
+            <ymax>195</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_line</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>8</xmin>
+            <ymin>209</ymin>
+            <xmax>264</xmax>
+            <ymax>261</ymax>
+        </bndbox>
+    </object><object>
         <name>button</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>172</xmin>
+            <xmin>112</xmin>
             <ymin>264</ymin>
-            <xmax>343</xmax>
+            <xmax>283</xmax>
             <ymax>319</ymax>
         </bndbox>
     </object></annotation>

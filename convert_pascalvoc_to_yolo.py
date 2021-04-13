@@ -15,17 +15,29 @@ classes = []
 ObjectBox = collections.namedtuple('ObjectBox', ['class_id', 'x_min', 'x_max', 'y_min', 'y_max'])
 
 # list of classes that we want exported to yolo text files
-allowed_classes = ['field', 'button', '_form_']
+# order depends on class_id defined in 'generate-html.py'
+allowed_classes = ['field', 
+                   'button', 
+                   'checkbox', 
+                   'radio', 
+                   'field_with_label',
+                   'checkbox_with_label',
+                   'radio_with_label',
+                   'field_line', 
+                   'field_line_with_label', 
+                   'select',   
+                   '_form_']
 
 def convert(xml_file_path, output_dir):
     """
-    convert XML file to yolo format file
+    convert XML file created by LabelImg (PascalVOC format) to yolo format file
     """
     boxes = []
     forms = []
     
     with open(xml_file_path, 'r') as xml_file:
         
+        logging.info("processing %s" % xml_file_path)
         document = minidom.parse(xml_file)
         
         size = document.getElementsByTagName('size')[0]

@@ -44,4 +44,15 @@
             <xmax>430</xmax>
             <ymax>333</ymax>
         </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>341</ymin>
+            <xmax>432</xmax>
+            <ymax>399</ymax>
+        </bndbox>
     </object></annotation>

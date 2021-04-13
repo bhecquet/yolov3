@@ -17,8 +17,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>266</xmin>
-			<ymin>105</ymin>
+			<xmin>269</xmin>
+			<ymin>121</ymin>
 			<xmax>716</xmax>
 			<ymax>155</ymax>
 		</bndbox>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select_line</name>
+		<name>field_line</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -84,7 +84,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select_line</name>
+		<name>field_line</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -161,10 +161,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>246</xmin>
-			<ymin>57</ymin>
-			<xmax>728</xmax>
-			<ymax>459</ymax>
+			<xmin>247</xmin>
+			<ymin>68</ymin>
+			<xmax>729</xmax>
+			<ymax>470</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -201,6 +201,30 @@
 			<ymin>434</ymin>
 			<xmax>989</xmax>
 			<ymax>469</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>field_line_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>266</xmin>
+			<ymin>106</ymin>
+			<xmax>719</xmax>
+			<ymax>156</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>field_line_with_label</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>264</xmin>
+			<ymin>356</ymin>
+			<xmax>401</xmax>
+			<ymax>405</ymax>
 		</bndbox>
 	</object>
 </annotation>

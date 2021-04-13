@@ -108,7 +108,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -168,7 +168,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -180,7 +180,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -192,7 +192,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -204,7 +204,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -264,7 +264,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -348,7 +348,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -360,7 +360,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -372,7 +372,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -384,7 +384,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -396,7 +396,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -408,7 +408,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>select</name>
+		<name>field</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

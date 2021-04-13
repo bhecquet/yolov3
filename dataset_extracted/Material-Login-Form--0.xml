@@ -23,6 +23,28 @@
             <ymax>31</ymax>
         </bndbox>
     </object><object>
+        <name>field_line</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>104</xmin>
+            <ymin>155</ymin>
+            <xmax>327</xmax>
+            <ymax>193</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_line</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>105</xmin>
+            <ymin>231</ymin>
+            <xmax>328</xmax>
+            <ymax>264</ymax>
+        </bndbox>
+    </object><object>
         <name>button</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>

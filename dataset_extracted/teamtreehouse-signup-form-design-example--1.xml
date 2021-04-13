@@ -34,6 +34,28 @@
             <ymax>60</ymax>
         </bndbox>
     </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>162</ymin>
+            <xmax>21</xmax>
+            <ymax>176</ymax>
+        </bndbox>
+    </object><object>
+        <name>radio</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>144</xmin>
+            <ymin>163</ymin>
+            <xmax>155</xmax>
+            <ymax>176</ymax>
+        </bndbox>
+    </object><object>
         <name>field</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>

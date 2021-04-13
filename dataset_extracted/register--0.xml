@@ -11,4 +11,26 @@
         <depth>3</depth>
     </size>
     <segmented>0</segmented>
-    </annotation>
+    <object>
+        <name>checkbox</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>4</xmin>
+            <ymin>1</ymin>
+            <xmax>17</xmax>
+            <ymax>15</ymax>
+        </bndbox>
+    </object><object>
+        <name>checkbox_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>3</xmin>
+            <ymin>1</ymin>
+            <xmax>182</xmax>
+            <ymax>16</ymax>
+        </bndbox>
+    </object></annotation>

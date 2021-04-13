@@ -17,10 +17,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>7</xmin>
-            <ymin>33</ymin>
-            <xmax>1093</xmax>
-            <ymax>89</ymax>
+            <xmin>9</xmin>
+            <ymin>46</ymin>
+            <xmax>1095</xmax>
+            <ymax>102</ymax>
         </bndbox>
     </object><object>
         <name>field</name>
@@ -28,20 +28,53 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>8</xmin>
-            <ymin>164</ymin>
-            <xmax>1089</xmax>
-            <ymax>222</ymax>
-        </bndbox>
-    </object><object>
-        <name>field</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>8</xmin>
-            <ymin>296</ymin>
+            <xmin>10</xmin>
+            <ymin>177</ymin>
             <xmax>1091</xmax>
-            <ymax>349</ymax>
+            <ymax>235</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>309</ymin>
+            <xmax>1093</xmax>
+            <ymax>362</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>5</xmin>
+            <ymin>9</ymin>
+            <xmax>1099</xmax>
+            <ymax>104</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>142</ymin>
+            <xmax>1097</xmax>
+            <ymax>239</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>8</xmin>
+            <ymin>270</ymin>
+            <xmax>1098</xmax>
+            <ymax>364</ymax>
         </bndbox>
     </object></annotation>

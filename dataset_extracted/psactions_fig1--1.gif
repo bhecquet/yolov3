@@ -7,7 +7,7 @@
     </source>
     <size>
         <width>348</width>
-        <height>417</height>
+        <height>435</height>
         <depth>3</depth>
     </size>
     <segmented>0</segmented>
@@ -18,9 +18,9 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>22</xmin>
-            <ymin>4</ymin>
+            <ymin>22</ymin>
             <xmax>312</xmax>
-            <ymax>25</ymax>
+            <ymax>43</ymax>
         </bndbox>
     </object><object>
         <name>field</name>
@@ -29,9 +29,9 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>22</xmin>
-            <ymin>45</ymin>
+            <ymin>63</ymin>
             <xmax>312</xmax>
-            <ymax>67</ymax>
+            <ymax>85</ymax>
         </bndbox>
     </object><object>
         <name>field</name>
@@ -40,9 +40,9 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>22</xmin>
-            <ymin>140</ymin>
+            <ymin>158</ymin>
             <xmax>312</xmax>
-            <ymax>162</ymax>
+            <ymax>180</ymax>
         </bndbox>
     </object><object>
         <name>field</name>
@@ -51,9 +51,9 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>23</xmin>
-            <ymin>170</ymin>
+            <ymin>188</ymin>
             <xmax>314</xmax>
-            <ymax>191</ymax>
+            <ymax>209</ymax>
         </bndbox>
     </object><object>
         <name>field</name>
@@ -62,9 +62,31 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>22</xmin>
-            <ymin>211</ymin>
+            <ymin>229</ymin>
             <xmax>312</xmax>
-            <ymax>234</ymax>
+            <ymax>252</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>21</xmin>
+            <ymin>271</ymin>
+            <xmax>238</xmax>
+            <ymax>292</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>135</xmin>
+            <ymin>320</ymin>
+            <xmax>254</xmax>
+            <ymax>341</ymax>
         </bndbox>
     </object><object>
         <name>field</name>
@@ -73,9 +95,9 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>22</xmin>
-            <ymin>301</ymin>
+            <ymin>319</ymin>
             <xmax>118</xmax>
-            <ymax>323</ymax>
+            <ymax>341</ymax>
         </bndbox>
     </object><object>
         <name>button</name>
@@ -84,8 +106,85 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>31</xmin>
-            <ymin>378</ymin>
+            <ymin>396</ymin>
             <xmax>108</xmax>
-            <ymax>411</ymax>
+            <ymax>429</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>20</xmin>
+            <ymin>8</ymin>
+            <xmax>316</xmax>
+            <ymax>46</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>19</xmin>
+            <ymin>52</ymin>
+            <xmax>313</xmax>
+            <ymax>87</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>20</xmin>
+            <ymin>147</ymin>
+            <xmax>314</xmax>
+            <ymax>182</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>18</xmin>
+            <ymin>217</ymin>
+            <xmax>313</xmax>
+            <ymax>253</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>19</xmin>
+            <ymin>259</ymin>
+            <xmax>239</xmax>
+            <ymax>294</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>20</xmin>
+            <ymin>308</ymin>
+            <xmax>118</xmax>
+            <ymax>343</ymax>
+        </bndbox>
+    </object><object>
+        <name>field_with_label</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>131</xmin>
+            <ymin>308</ymin>
+            <xmax>254</xmax>
+            <ymax>344</ymax>
         </bndbox>
     </object></annotation>

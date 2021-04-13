@@ -62,6 +62,17 @@
         <difficult>0</difficult>
         <bndbox>
             <xmin>8</xmin>
+            <ymin>293</ymin>
+            <xmax>413</xmax>
+            <ymax>341</ymax>
+        </bndbox>
+    </object><object>
+        <name>field</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>8</xmin>
             <ymin>358</ymin>
             <xmax>412</xmax>
             <ymax>403</ymax>
