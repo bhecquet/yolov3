@@ -1,5 +1,4 @@
 field
-select
 radio
 button
 radio_with_label
