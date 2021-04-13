@@ -24,8 +24,7 @@ allowed_classes = ['field',
                    'checkbox_with_label',
                    'radio_with_label',
                    'field_line', 
-                   'field_line_with_label', 
-                   'select',   
+                   'field_line_with_label',   
                    '_form_']
 
 def convert(xml_file_path, output_dir):

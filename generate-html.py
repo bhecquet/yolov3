@@ -22,7 +22,7 @@ import collections
 
 DEBUG = False
 
-Box = collections.namedtuple('Box', ['class_id', 'x', 'y', 'w', 'h'])
+classes = {}
 
 class Box:
     
@@ -43,9 +43,6 @@ class Box:
 
  
 class TextField:
-    
-    class_id = 0
-    class_with_label_id = 4
     
     def __init__(self, width, height, arc_radius, border_color, label_outside, label_outside_color, label_inside, font, background_color, label_outside_width=None, label_position='left'):
         """
@@ -121,16 +118,13 @@ class TextField:
         if self.label_inside:
             image_draw.text((field_x + 5, field_y + (self.height - label_height) / 2), self.label_inside, font=self.font, fill=(150, 150, 150))
 
-        return [Box(self.class_id, field_x - 1, field_y - 1, self.width + 2, self.height + 2), 
-                Box(self.class_with_label_id, label_x - 2, label_y - 2, self.overall_width + 4, self.overall_height + 4)]
+        return [Box(classes['field'], field_x - 1, field_y - 1, self.width + 2, self.height + 2), 
+                Box(classes['field_with_label'], label_x - 2, label_y - 2, self.overall_width + 4, self.overall_height + 4)]
     
     def get_width(self):
         return self.overall_width
         
 class TextFieldLine:
-    
-    class_id = 7
-    class_with_label_id = 8
     
     def __init__(self, width, height, border_color, label_outside, label_outside_color, label_inside, font, label_outside_width=None):
         """
@@ -173,17 +167,14 @@ class TextFieldLine:
         if self.label_inside:
             image_draw.text((field_x + 5, y + (self.height - label_height) / 2), self.label_inside, font=self.font, fill=(150, 150, 150))
 
-        return [Box(self.class_id, field_x, y, self.width, self.height + 1), 
-                Box(self.class_with_label_id, x - 1, y - 1, self.overall_width + 2, self.overall_height + 3)]
+        return [Box(classes['field_line'], field_x, y, self.width, self.height + 1), 
+                Box(classes['field_line_with_label'], x - 1, y - 1, self.overall_width + 2, self.overall_height + 3)]
     
     def get_width(self):
         return self.overall_width
         
         
 class Button:
-    
-    class_id = 1
-    class_with_label_id = -1
     
     def __init__(self, width, height, arc_radius, form_background_color, label_inside, label_inside_color, font_size):
         self.width = width
@@ -230,15 +221,12 @@ class Button:
 
         image_draw.text((x + (self.width - text_width) / 2, y + (self.height - text_height) / 2), self.label_inside, font=font, fill=self.label_inside_color)
         
-        return [Box(self.class_id, x - 1, y - 1, self.width + 2, self.height + 2)]
+        return [Box(classes['button'], x - 1, y - 1, self.width + 2, self.height + 2)]
     
     def get_width(self):
         return self.overall_width
     
 class Checkbox:
-    
-    class_id = 2
-    class_with_label_id = 5
     
     def __init__(self, width, arc_radius, border_color, label, label_color, font, background_color, checked=False, check_color=(0, 0, 0), text_after=True):
         self.width = width
@@ -277,8 +265,8 @@ class Checkbox:
             image_draw.line([start_point1, end_point1, end_point2], fill=self.check_color, width=2)
             
             
-        return [Box(self.class_id, field_x - 1, y - 1, self.width + 2, self.height + 2), 
-                Box(self.class_with_label_id, x - 2, y - 2, self.overall_width + 2, max(label_height, self.height + 4))]
+        return [Box(classes['checkbox'], field_x - 1, y - 1, self.width + 2, self.height + 2), 
+                Box(classes['checkbox_with_label'], x - 2, y - 2, self.overall_width + 2, max(label_height, self.height + 4))]
     
     def _draw_box(self, image_draw, img, x, y, label_width):
         # box containing arc must be twice the size of the radius
@@ -357,9 +345,6 @@ class CheckboxGroup:
     
 class RadioButton:
     
-    class_id = 3
-    class_with_label_id = 6
-    
     def __init__(self, width, border_color, label, label_color, font, background_color, checked=False, check_color=(0, 0, 0), text_after=True):
         self.width = width
         self.height = width
@@ -395,8 +380,8 @@ class RadioButton:
             image_draw.arc((field_x + circle_crop, y + circle_crop, field_x + self.width - circle_crop, y + self.height - circle_crop), 0, 360, fill=self.check_color) 
             ImageDraw.floodfill(img, ((2 * field_x + self.width) / 2, (2 * y + self.height) / 2), value=self.check_color)
             
-        return [Box(self.class_id, field_x - 1, y - 1, self.width + 2, self.height + 2), 
-                Box(self.class_with_label_id, x - 2, y - 2, self.overall_width + 2, max(label_height, self.height + 4))]
+        return [Box(classes['radio'], field_x - 1, y - 1, self.width + 2, self.height + 2), 
+                Box(classes['radio_with_label'], x - 2, y - 2, self.overall_width + 2, max(label_height, self.height + 4))]
     
     def _draw_radio(self, image_draw, img, x, y, label_width):
         """
@@ -590,9 +575,20 @@ def compute_color_diff(color1, color2):
 #     
 #     return delta_e_cie2000(color1_lab, color2_lab);  
 
+def compute_class_id(class_file_path):
+    """
+    read the 'class_file' which references the classes allowed for computation
+    """
+    with open(class_file_path, 'r') as class_file:
+        for i, line in enumerate(class_file):
+            if line:
+                classes[line.strip()] = i
 
 
 if __name__ == '__main__':
+    
+    # name of the class file must be provided: give a xxx.names file path
+    compute_class_id(sys.argv[1])
     
     min_width = 300
     max_width = 416

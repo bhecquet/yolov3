@@ -1,4 +1,4 @@
-classes= 2
+classes= 9
 train  = data/web-generated-train.txt  
 valid  = data/web-generated-test.txt  
 names = data/web-generated.names  
