@@ -21,6 +21,7 @@
 !cfg/yolov3*.cfg
 !cfg/web*.cfg
 
+dataset/*
 storage.googleapis.com
 runs/*
 data/*
