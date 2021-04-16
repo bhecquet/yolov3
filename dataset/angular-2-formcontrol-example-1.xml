@@ -167,4 +167,16 @@
 			<ymax>180</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>155</ymin>
+			<xmax>255</xmax>
+			<ymax>360</ymax>
+		</bndbox>
+	</object>
 </annotation>

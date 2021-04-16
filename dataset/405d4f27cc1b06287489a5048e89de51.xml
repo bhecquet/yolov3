@@ -83,4 +83,16 @@
 			<ymax>426</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>_form_</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>116</ymin>
+			<xmax>327</xmax>
+			<ymax>353</ymax>
+		</bndbox>
+	</object>
 </annotation>
